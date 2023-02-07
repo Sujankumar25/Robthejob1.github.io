@@ -492,197 +492,24 @@ iframe{
    font-size: 1.4rem;
    color: black;
 }
-
-
-
-
-
-
-
-
-/*********-------laptop SCREENS-----*******/
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width : 1024px) {
-   body{
-      width:100rem;
-      padding-left: 25rem;
-   
-   }
-
-   .header{
-      width:81.5rem;
-      height:6rem;
-   }
-
-   .side-bar{
-      position: fixed;
-      width:25rem;
-   }
-.side-bar .navbar a{
-      
-  width:25rem;
-  align-items: center;
-  justify-content: center;
-  padding-left: 0.4rem;
-     
-}
-
-.content{
-   
-      margin:0 7rem;
-   }
-   
-.content img{
-  width:65vw;
-
-}
-
-.content .about{
-   width:72rem;
-}
-.content .about h1{
-   font-size:1.8rem;
-}
-
-.line{
-   width:63rem;
-
-} 
-
-.content .about p{
- margin-right: 1rem;
-}
- 
-.content .about li{
-   margin-right: 3rem;
-}
-.content .about h2{
-   font-size: 1.5rem;
-}
-
-.content .jobroles h2{
-   font-size: 1.8rem;
-}
-
-.content .jobroles .carrers{
-   display: flex;
-  flex-wrap: wrap;
-   width:66.5rem !important;
-   margin-left: 2rem;
-}
-.content .jobroles .carrers .role{
-   width:28rem !important;
-   height: 6rem;
-   justify-content: center;
-   align-items: center;
-}
-
-.side-bar .navbar a.active{
-   background-color: rgba(0, 0, 0, 0.308);
- }
-
- .contentr{
-   margin: 0 4rem;
-
- } 
-
- .contentr img{
-   width:65vw;
- }
-
- 
-
- .videos{
-   margin-left: 2rem;
-
- }
- .course{
-   position: relative;
-   margin: 0.4rem;
-
- }
- iframe{
-   width:23rem;
-   height: 16rem;
-   margin:0.3rem;
- }
- .container2 h1{
-   font-size: 1.9rem;
-
- }
- .course h2{
-   font-size:1.2rem;
-   padding-bottom: 0.5rem;
-   
- }
-
-
- .accordion{
-   width:74rem;
-   margin-left: 3rem;
- }
- 
-.container1{
-   width:73rem;
-   height: 20rem;
-}
-
-.container1 .card{
-   width:73rem;
-}
-.container1 .card .rec {
-   height: 17rem;
-}
-.container1 .card .rec img{
-   width:28rem;
-   height:18rem;
-}
-.cardcontent{
-   padding-left: 1rem;
-   margin-top: 2.5rem;
-}
-.cardcontent h1{
-   margin-top: -0.5rem;
-}
-
-.container1 .card .cardcontent p{
+.cheatcontent .box3{
+   width:20rem;
+   background-color: #7c7c7c;
+   position:relative;
+   margin-top: 1rem;
+   padding: 1rem;
+   border-radius: 0.5rem;
    font-size: 1.4rem;
-}
-.container1 .card a{
-   margin-top: 0.8rem;
-   width:16rem;
-   height: 4rem;
+   color: black;
 }
 
-.cheatcontent{
-   max-width:70rem !important;
-   margin-left: 2rem;
-}
-.cheatcontent .box1{
-width:14rem;
-}
-.cheatcontent .box2{
-   width:14rem;
-}
-.cheatcontent li{
-   font-size: 1rem;
-}
-}
 
-/*-----------------------------------------------------------------------mobilephones----------------------------------------------------------------------------*/
+/*------------------------Mobile Screen(280px-galaxy fold)----------------*/
 
-@media screen and  (max-width : 360px) {
+
+
+
+@media screen and (max-width:280px) {
    html{
       height:1200px;
    }
@@ -1023,839 +850,162 @@ margin-left: 30px;
 }
 
 
-/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*------------Mobile Screens 320px--*/
 
 
 
-
-
-/*@media screen and  (max-width : 375px) {
+@media screen and  (min-width :281px) and (max-width:320px) {
    html{
-      height:1200px;
-   }
-   
-   body{
-      width:375px;
-      height:1250px;
-      padding: 50px;
-      padding-left: 55px;
-      padding-right: 10px;
-      padding-bottom: 0px;
-   }
-
-   .header{
-      width:295px;
-      height:50px;
-      position: fixed;
-     margin-left: 80px;
-     border-radius: 0px;
-   }
-
-   .header .flex{
-      padding:0px;
-      padding-top: 15px;
-      padding-left: 40px;
-   }
-
-   .flex img{
-      height:20px;
-      
-      }
-
-    .header .flex h1{
-   font-size: 10px;
-   }
-
-   .side-bar{
-      position: fixed;
-      width:80px;
-      height:1250px;
-   }
-
-   .side-bar .profile{
-      padding: 10px 10px;
-      padding-top: 50px;
-   }
-   .side-bar .profile .image{
-      width:50px;
-   }
-   .side-bar .profile .name{
-      display: none;
-   }
-
-   .side-bar .navbar a {
-      width:80px;
-      height:80px;
-      padding: 0px;
-    
-      line-height: 40px;
-      align-items: center;
-   }
-   .side-bar .navbar a i{
-      width:80px;
-      height:80px;
-      padding:30px;
-      padding-top: 30px;
-      margin: 0px;
-      font-size: 20px;
-      
-
-   }
-   .side-bar .navbar a span{
-      left: 0;
-      display: none;
-      padding: 0px;
-      
-   }
-
-   .content{
-      max-width: 280px;
-   }
-   
-   .content img{
-      width:260px;
-   }
-
-   .content .about h1{
-      width:260px;
-      font-size: 15px;
-      margin-top: 10px;
-   }
-   .line{
-      width:260px;
-      height: 2px;
-   }
-   
-   .content .about p {
-      width:260px;
-      font-size:12px;
-   }
-    
-    .content .about li{
-      width: 260px;
-      font-size:12px;
-    }
-
-    .content .about h2{
-      width: 260px;
-    }
-
-    .content .jobroles{
-      margin-top: 10px;
-      margin-bottom: 10px;
-   }
-
-   .content .jobroles h2{
-      width: 260px;
-      font-size: 15px;
-   }
-   
-   .content .jobroles .carrers{
-      display: block;
-      width:230px ;
-      height:290px;
-      margin: 0px;
-      
-   }
-
-   .content .jobroles .carrers .role {
-      width:240px !important;
-      height:40px;
-      margin: 10px;
-   }
-
-.content .jobroles .role h3{
-font-size: 12px;
-}
-
-.privacy{
-position: relative;
-width:300px;
-margin-left: 20px;
-
-}
-
-.contentr{
-   margin:0px 10px;
-
-}
-
-.contentr img{
-   width:260px;
-   height:640px;
-}
-
-.privacyr{
-   width:320px;
-}
-
-
-.videos{
-   margin-left: 55px;
- }
- .course{
-   position: relative;
-   margin: 4px;
-   margin-bottom: 10px;
-
- }
- iframe{
-   width:240px;
-   height: 135px;
-   margin: 0px 0px;
- }
- .container2 h1{
-   width: 260px;
-   margin-left: 30px;
-   font-size: 15px;
-   margin-top: 20px;
-   padding-left: 30px;
-
- }
-
- .accordion{
-   width:260px;
-   margin-left: 40px;
-   margin-top: 10px;
-   padding-top: 10px;
- }
- .accordion-content header{
-   padding: 0 10px;
- }
- .accordion-content header .title{
-   font-size: 10px;
- }
-
- .accordion-content header i{
-   font-size: 10px;
- }
- .accordion-content .description{
-   font-size: 10px;
- }
-
- .box{
-   margin-bottom: 20px;
- }
-
- .container1{
-   display: inline;
-   justify-content: center;
-   width: 280px; 
-   height:220px;
-   margin-left:25px ;
-   margin-top: 0px;
-   
-}
-
-.container1 .card{
-   position: relative;
-   display: block;
-   width: 320px;
-   height:280px;
-   background-color: rgba(254, 55, 55, 0);
-   margin-top: 0px;
-   margin-bottom: 0px;
-   border-radius: 20px;
-  
-  
-}
-.container1 .card .rec {
-   width: 250px;
-   height: 160px;
-   margin-top: 10px;
-   margin-bottom: 0px;
-   background-color: transparent;
-}
-
-.container1 .card .rec img{
-   width: 250px;
-   height: 160px;
-   border-radius: 10px;
-   margin-left: 30px;
-   
-}
-
-.cardcontent{
-   position: relative;
-   width:280px;
-   height:100px;
-   margin-top: 10px;
-   margin-bottom: 10px;
-   padding-left: 55px;
-   
-}
-.cardcontent h1{
-   width: 260px;
-   font-size: 12px;
-   font-weight: 600;
-}
-.container1 .card .cardcontent p{
-   width: 260px;
-   font-size: 10px;
-   padding-right: 0px;
-   padding-top: 5px;
-   margin-bottom: 15px;
-}
- 
-.container1 .card a{
-   position: relative;
-   display: inline;
-   width: 280px !important;
-   height: 40px;
-   list-style: none;
-   text-decoration: none;
-   background-color: #1AB700;
-   color: rgb(255, 255, 255);
-   border-radius: 5px;
-   font-size: 13px;
-   font-weight: 400;
-   justify-content: center;
-   align-items: center;
-   padding: 5px 65px;
-   margin-left: 10px;
-   
-}
-
-.cheatcontent{
-   max-width: 300px !important;    /* Content max width
-   margin-left: 35px; 
-   margin-right: 0px;
-   overflow: hidden;
-   padding-right: 0px;
-       Content in center by giving marigin
-}
-
-.boxflex{
-   position: relative;
-   width:280px;
-   display:flex;
-   margin: 0;
-   
-}
-
-.boxes{
-
-   margin:5px;
-}
-
-.cheatcontent .box1{
-   width:80px;
-   background-color: #1AB700;
-   position:relative;
-   display: block;
-   margin-top: 10px;
-   padding: 5px;
-   border-radius: 5px;
-   font-size:6px;
-   color: black;
-}
-
-.cheatcontent .box2{
-   width:80px;
-   background-color: #7c7c7c;
-   position:relative;
-   margin-top: 10px;
-   padding: 5px;
-   border-radius: 5px;
-   font-size: 6px;
-   color: black;
-}
-
-.cheatcontent .boxflex .boxes .box1 li{
-   font-size: 5px;
-}
-.cheatcontent .boxflex .boxes .box2 li{
-   font-size: 5px;
-}
-
-}
-/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-@media screen and  (max-width : 420px) {
-   html{
-      height:1200px;
-   }
-   
-   body{
-      width:420px;
-      height:1250px;
-      padding: 50px;
-      padding-left: 55px;
-      padding-right: 10px;
-      padding-bottom: 0px;
-   }
-
-   .header{
-      width:360px;
-      height:50px;
-      position: fixed;
-     margin-left: 80px;
-     border-radius: 0px;
-   }
-
-   .header .flex{
-      padding:0px;
-      padding-top: 15px;
-      padding-left: 60px;
-   }
-
-   .flex img{
-      height:20px;
-      
-      }
-
-    .header .flex h1{
-   font-size: 10px;
-   }
-
-   .side-bar{
-      position: fixed;
-      width:85px;
-      height:1300px;
-   }
-
-   .side-bar .profile{
-      padding: 10px 10px;
-      padding-top: 50px;
-   }
-   .side-bar .profile .image{
-      width:50px;
-   }
-   .side-bar .profile .name{
-      display: none;
-   }
-
-   .side-bar .navbar a {
-      width:85px;
-      height:80px;
-      padding: 0px;
-    
-      line-height: 40px;
-      align-items: center;
-   }
-   .side-bar .navbar a i{
-      width:85px;
-      height:80px;
-      padding:30px;
-      padding-top: 30px;
-      margin: 0px;
-      font-size: 20px;
-      
-
-   }
-   .side-bar .navbar a span{
-      left: 0;
-      display: none;
-      padding: 0px;
-      
-   }
-
-   .content{
-      max-width: 280px;
-      margin:60px;
-   }
-   
-   .content img{
-      width:260px;
-   }
-
-   .content .about h1{
-      width:260px;
-      font-size: 15px;
-      margin-top: 10px;
-   }
-   .line{
-      width:260px;
-      height: 2px;
-   }
-   
-   .content .about p {
-      width:260px;
-      font-size:12px;
-   }
-    
-    .content .about li{
-      width: 260px;
-      font-size:12px;
-    }
-
-    .content .about h2{
-      width: 260px;
-    }
-
-    .content .jobroles{
-      margin-top: 10px;
-      margin-bottom: 10px;
-   }
-
-   .content .jobroles h2{
-      width: 260px;
-      font-size: 15px;
-   }
-   
-   .content .jobroles .carrers{
-      display: block;
-      width:230px ;
-      height:290px;
-      margin: 0px;
-      
-   }
-
-   .content .jobroles .carrers .role {
-      width:240px !important;
-      height:40px;
-      margin: 10px;
-   }
-
-.content .jobroles .role h3{
-font-size: 12px;
-}
-
-.privacy{
-position: relative;
-width:300px;
-margin-left: 20px;
-
-}
-
-.contentr{
-   margin:0px 10px;
-
-}
-
-.contentr img{
-   width:260px;
-   height:640px;
-}
-
-.privacyr{
-   width:320px;
-}
-
-
-.videos{
-   margin-left: 55px;
- }
- .course{
-   position: relative;
-   margin: 4px;
-   margin-bottom: 10px;
-
- }
- iframe{
-   width:240px;
-   height: 135px;
-   margin: 0px 0px;
- }
- .container2 h1{
-   width: 260px;
-   margin-left: 30px;
-   font-size: 15px;
-   margin-top: 20px;
-   padding-left: 30px;
-
- }
-
- .accordion{
-   width:260px;
-   margin-left: 40px;
-   margin-top: 10px;
-   padding-top: 10px;
- }
- .accordion-content header{
-   padding: 0 10px;
- }
- .accordion-content header .title{
-   font-size: 10px;
- }
-
- .accordion-content header i{
-   font-size: 10px;
- }
- .accordion-content .description{
-   font-size: 10px;
- }
-
- .box{
-   margin-bottom: 20px;
- }
-
- .container1{
-   display: inline;
-   justify-content: center;
-   width: 280px; 
-   height:220px;
-   margin-left:25px ;
-   margin-top: 0px;
-   
-}
-
-.container1 .card{
-   position: relative;
-   display: block;
-   width: 320px;
-   height:280px;
-   background-color: rgba(254, 55, 55, 0);
-   margin-top: 0px;
-   margin-bottom: 0px;
-   border-radius: 20px;
-  
-  
-}
-.container1 .card .rec {
-   width: 250px;
-   height: 160px;
-   margin-top: 10px;
-   margin-bottom: 0px;
-   background-color: transparent;
-}
-
-.container1 .card .rec img{
-   width: 250px;
-   height: 160px;
-   border-radius: 10px;
-   margin-left: 30px;
-   
-}
-
-.cardcontent{
-   position: relative;
-   width:280px;
-   height:100px;
-   margin-top: 10px;
-   margin-bottom: 10px;
-   padding-left: 55px;
-   
-}
-.cardcontent h1{
-   width: 260px;
-   font-size: 12px;
-   font-weight: 600;
-}
-.container1 .card .cardcontent p{
-   width: 260px;
-   font-size: 10px;
-   padding-right: 0px;
-   padding-top: 5px;
-   margin-bottom: 15px;
-}
- 
-.container1 .card a{
-   position: relative;
-   display: inline;
-   width: 280px !important;
-   height: 40px;
-   list-style: none;
-   text-decoration: none;
-   background-color: #1AB700;
-   color: rgb(255, 255, 255);
-   border-radius: 5px;
-   font-size: 13px;
-   font-weight: 400;
-   justify-content: center;
-   align-items: center;
-   padding: 5px 65px;
-   margin-left: 10px;
-   
-}
-
-.cheatcontent{
-   max-width: 300px !important;    /* Content max width
-   margin-left: 35px; 
-   margin-right: 0px;
-   overflow: hidden;
-   padding-right: 0px;
-      /* Content in center by giving marigin
-}
-
-.boxflex{
-   position: relative;
-   width:280px;
-   display:flex;
-   margin: 0;
-   
-}
-
-.boxes{
-
-   margin:5px;
-}
-
-.cheatcontent .box1{
-   width:80px;
-   background-color: #1AB700;
-   position:relative;
-   display: block;
-   margin-top: 10px;
-   padding: 5px;
-   border-radius: 5px;
-   font-size:6px;
-   color: black;
-}
-
-.cheatcontent .box2{
-   width:80px;
-   background-color: #7c7c7c;
-   position:relative;
-   margin-top: 10px;
-   padding: 5px;
-   border-radius: 5px;
-   font-size: 6px;
-   color: black;
-}
-
-.cheatcontent .boxflex .boxes .box1 li{
-   font-size: 5px;
-}
-.cheatcontent .boxflex .boxes .box2 li{
-   font-size: 5px;
-}
-
-}
-
-/*@media screen and  (max-width : 480px) {
-   html{
-      height:1200px;
+      height:920px;
    }
    
    body{
       width:360px;
-      height:1250px;
-      padding: 50px;
+      height:900px;
+      padding: 0px;
       padding-right: 10px;
       padding-bottom: 0px;
    }
 
    .header{
-      width:280px;
-      height:50px;
+      width:260px;     /*---Header width--*/
+      height:40px;     /*---Header height--*/
       position: fixed;
-     margin-left: 80px;
-     border-radius: 0px;
+     margin-left: 60px;  /*---Header left space--*/
+     border-radius: 0px 0px 10px 10px;  /*---Header Border--*/
    }
 
-   .header .flex{
+   .header .flex{    /*---Header img+h1 spacing--*/
       padding:0px;
       padding-top: 15px;
       padding-left: 35px;
    }
 
-   .flex img{
-      height:20px;
+   .flex img{       /*---Header python size--*/
+      height:18px;       
       
       }
 
-    .header .flex h1{
-   font-size: 10px;
+    .header .flex h1{ /*---Header h1 size--*/
+   font-size: 9px;
    }
 
-   .side-bar{
+   .side-bar{          /*---side bar size--*/
       position: fixed;
-      width:80px;
-      height:1250px;
+      width:60px;
+      height:920px;
    }
 
-   .side-bar .profile{
+   .side-bar .profile{  
       padding: 10px 10px;
       padding-top: 50px;
    }
-   .side-bar .profile .image{
-      width:50px;
+   .side-bar .profile .image{  /*---side bar image width--*/
+      width:40px;
    }
    .side-bar .profile .name{
       display: none;
    }
 
-   .side-bar .navbar a {
-      width:80px;
+   .side-bar .navbar a {     /*---box size in side bar--*/
+      width:60px;
       height:80px;
       padding: 0px;
-    
       line-height: 40px;
       align-items: center;
    }
-   .side-bar .navbar a i{
-      width:80px;
+   .side-bar .navbar a i{   /*---Icons styling--*/
+      width:60px;
       height:80px;
-      padding:30px;
       padding-top: 30px;
+      padding-left: 25px;
       margin: 0px;
-      font-size: 20px;
-      
+      font-size: 14px;
+    
 
    }
-   .side-bar .navbar a span{
+   .side-bar .navbar a span{ 
       left: 0;
       display: none;
       padding: 0px;
       
    }
 
-   .content{
-      max-width: 280px;
+   .content{    /*---Content inside styling--*/
+      max-width: 260px; 
+      margin-left: 70px;
    }
    
-   .content img{
-      width:260px;
+   .content img{      /*---Info img styling--*/
+      width:245px;
+      margin-top: 50px;
+      margin-bottom: 0px;
    }
 
    .content .about h1{
-      width:260px;
-      font-size: 15px;
-      margin-top: 10px;
+      width:250px;     /*---About title styling--*/
+      font-size: 11px;
+      margin-top: 5px;
    }
-   .line{
-      width:260px;
-      height: 2px;
+   .line{            /*---line styling--*/
+      width:240px;
+      height: 1.5px;
+      margin: 6px 0px;
    }
    
-   .content .about p {
-      width:260px;
-      font-size:12px;
+   .content .about p {   /*--Paragraph styling---*/
+      width: 240px;
+      font-size:10px;
    }
     
-    .content .about li{
-      width: 260px;
-      font-size:12px;
+    .content .about li{  /*--points styling---*/
+      width: 240px;
+      font-size:9.5px;
     }
 
-    .content .about h2{
-      width: 260px;
+    .content .about h2{   /*--bold text styling in middle ---*/
+      width: 240px;
+      font-size: 11px;
+
     }
 
-    .content .jobroles{
-      margin-top: 10px;
-      margin-bottom: 10px;
+    .content .jobroles{   /*--space between job & cards styling---*/
+      margin-top: 5px;
+      margin-bottom: 5px;
    }
 
-   .content .jobroles h2{
-      width: 260px;
-      font-size: 15px;
+   .content .jobroles h2{   /*--job opp.. text styling---*/
+      width: 240px;
+      font-size: 10px;
    }
    
-   .content .jobroles .carrers{
+   .content .jobroles .carrers{   /*--roles blocks styling---*/
       display: block;
-      width:230px ;
-      height:290px;
+      width:240px ;
+      height:230px;       /*--height of the job opp.. section---*/
       margin: 0px;
       
    }
 
-   .content .jobroles .carrers .role {
-      width:240px !important;
-      height:40px;
-      margin: 10px;
+   .content .jobroles .carrers .role {   /*--Job roles block---*/
+      width:200px !important;
+      height:32px;
+      margin: 5px;
+      margin-top: 7px;
+      margin-left:20px;
    }
 
-.content .jobroles .role h3{
-font-size: 12px;
+.content .jobroles .role h3{      /*--text of Role roles block ---*/
+font-size: 10px;
 }
 
-.privacy{
+.privacy{                      /*--privacy policy block ---*/
 position: relative;
-width:280px;
-margin-left: 30px;
+height: 20px;
+width:260px;
+margin-left: 60px;
 
 }
 
@@ -1872,35 +1022,46 @@ margin-left: 30px;
 .privacyr{
    width:320px;
 }
+ 
+.box{              /*--top space for content ---*/
+   margin-top: 60px;
+}
 
 
-.videos{
+.videos{               /*--iframe & sidebar distance---*/
    margin-left: 50px;
+   margin-top: 0;
  }
- .course{
+ .course{                /*-iframe outside ---*/
    position: relative;
    margin: 4px;
-   margin-bottom: 10px;
-
+   margin-bottom: 5px;
  }
- iframe{
-   width:240px;
+.course h2{              /*--below iframe text---*/
+   font-size: 11px;
+   padding: 3px 0px;
+   padding-left: 8px;
+}
+
+ iframe{                /*--iframe styling ---*/
+   width:230px;
    height: 135px;
    margin: 0px 0px;
  }
- .container2 h1{
+ .container2 h1{       /*--title text styling ---*/
    width: 260px;
-   margin-left: 30px;
-   font-size: 15px;
-   margin-top: 20px;
-   padding-left: 30px;
+   margin-left: 25px;
+   font-size: 11px;
+   margin-top: 10px;
+   padding-top: 10px;
+ 
 
  }
 
- .accordion{
-   width:260px;
-   margin-left: 40px;
-   margin-top: 10px;
+ .accordion{            /*--accordion styling---*/
+   width:240px;
+   margin-left: 70px;
+   margin-top: 50px;
    padding-top: 10px;
  }
  .accordion-content header{
@@ -1917,71 +1078,78 @@ margin-left: 30px;
    font-size: 10px;
  }
 
- .box{
-   margin-bottom: 20px;
+ .box{         /*--Projects page content margin--*/
+  margin: 40px 0px 0px 20px;   
  }
 
- .container1{
+ .container1{          
    display: inline;
    justify-content: center;
    width: 280px; 
    height:220px;
-   margin-left:25px ;
    margin-top: 0px;
    
 }
 
-.container1 .card{
+.container1 .card{   /*--Project card styling---*/
    position: relative;
    display: block;
-   width: 320px;
-   height:280px;
-   background-color: rgba(254, 55, 55, 0);
+   width: 250px;   /*--width of card---*/
+   height:300px;
+   background-color: rgb(255, 255, 255);
    margin-top: 0px;
    margin-bottom: 0px;
-   border-radius: 20px;
-  
-  
+   border-radius: 10px;
+   padding: 5px;
+   margin-left: 45px;
 }
+
+
 .container1 .card .rec {
    width: 250px;
    height: 160px;
-   margin-top: 10px;
+   margin-top: 0px;
    margin-bottom: 0px;
    background-color: transparent;
+   margin-left: 0px;
 }
 
-.container1 .card .rec img{
-   width: 250px;
-   height: 160px;
+.container1 .card .rec img{   /*--Project img---*/
+   width: 240px;
+   height: 150px;
    border-radius: 10px;
-   margin-left: 30px;
+   margin-left: 0px;
+   
    
 }
 
-.cardcontent{
+.cardcontent{              /*--project cardcontent---*/
    position: relative;
    width:280px;
    height:100px;
-   margin-top: 10px;
+   margin-top: 0px;
    margin-bottom: 10px;
-   padding-left: 55px;
+   margin-left: 0;
+   padding-left: 6px;
+   
    
 }
-.cardcontent h1{
+.cardcontent h1{          /*--project title---*/
    width: 260px;
    font-size: 12px;
    font-weight: 600;
+   
 }
-.container1 .card .cardcontent p{
-   width: 260px;
-   font-size: 10px;
+.container1 .card .cardcontent p{  /*--project info---*/
+   width: 240px;
+   font-size: 9px;
    padding-right: 0px;
    padding-top: 5px;
    margin-bottom: 15px;
+   
 }
  
-.container1 .card a{
+.container1 .card a{          /*--Source code button styling---*/
    position: relative;
    display: inline;
    width: 280px !important;
@@ -1995,39 +1163,45 @@ margin-left: 30px;
    font-weight: 400;
    justify-content: center;
    align-items: center;
-   padding: 5px 65px;
-   margin-left: 10px;
-   
+   padding: 5px 70px;
+   margin-top: 10px;
+   margin-left: 0px;  
+}
+
+.privacy{             /*--privacy policy styling---*/
+   margin-top: 10px;
 }
 
 .cheatcontent{
-   max-width: 300px !important;    /* Content max width
-   margin-left: 35px; 
-   margin-right: 0px;
-   overflow: hidden;
-   padding-right: 0px;
-      /* Content in center by giving marigin
+   max-width: 260px !important;    /* Content max width*/
+   margin-left: 65px; 
+   margin-top: 40px;
+      /* Content in center by giving marigin*/
 }
 
 .boxflex{
    position: relative;
    width:280px;
-   display:flex;
+   display:inline;
    margin: 0;
    
 }
 
-.boxes{
-
+.boxes{           /*---boxs flex styling-*/
+   display: flex;
    margin:5px;
+   margin-top: 0px;
+   margin-bottom: 0px;
 }
-
-.cheatcontent .box1{
-   width:80px;
+.box3{
+   display: none;
+}
+.cheatcontent .box1{           /*---box styling-*/
+   width:100px;
    background-color: #1AB700;
    position:relative;
    display: block;
-   margin-top: 10px;
+   margin: 10px;
    padding: 5px;
    border-radius: 5px;
    font-size:6px;
@@ -2035,7 +1209,7 @@ margin-left: 30px;
 }
 
 .cheatcontent .box2{
-   width:80px;
+   width:100px;
    background-color: #7c7c7c;
    position:relative;
    margin-top: 10px;
@@ -2045,11 +1219,978 @@ margin-left: 30px;
    color: black;
 }
 
+.cheatcontent .box3{
+   width:80px;
+   background-color: #7c7c7c;
+   position:relative;
+   margin-top: 10px;
+   padding: 5px;
+   border-radius: 5px;
+   font-size: 6px;
+   color: black;
+   display: none;
+}
 .cheatcontent .boxflex .boxes .box1 li{
-   font-size: 5px;
+   font-size: 7px;
 }
 .cheatcontent .boxflex .boxes .box2 li{
-   font-size: 5px;
+   font-size: 7px;
+}
+.privacy{             /*--privacy policy styling---*/
+   margin-top: 10px;
+}
 }
 
+
+
+/*------------Mobile Screens 360px--*/
+
+
+
+@media screen and  (min-width :321px) and (max-width:360px) {
+   html{
+      height:920px;
+   }
+   
+   body{
+      width:360px;
+      height:900px;
+      padding: 0px;
+      padding-right: 10px;
+      padding-bottom: 0px;
+   }
+
+   .header{
+      width:300px;     /*---Header width--*/
+      height:40px;     /*---Header height--*/
+      position: fixed;
+     margin-left: 60px;  /*---Header left space--*/
+     border-radius: 0px 0px 10px 10px;  /*---Header Border--*/
+   }
+
+   .header .flex{    /*---Header img+h1 spacing--*/
+      padding:0px;
+      padding-top: 15px;
+      padding-left: 60px;
+   }
+
+   .flex img{       /*---Header python size--*/
+      height:18px;       
+      
+      }
+
+    .header .flex h1{ /*---Header h1 size--*/
+   font-size: 9px;
+   }
+
+   .side-bar{          /*---side bar size--*/
+      position: fixed;
+      width:60px;
+      height:920px;
+   }
+
+   .side-bar .profile{  
+      padding: 10px 10px;
+      padding-top: 50px;
+   }
+   .side-bar .profile .image{  /*---side bar image width--*/
+      width:40px;
+   }
+   .side-bar .profile .name{
+      display: none;
+   }
+
+   .side-bar .navbar a {     /*---box size in side bar--*/
+      width:60px;
+      height:80px;
+      padding: 0px;
+      line-height: 40px;
+      align-items: center;
+   }
+   .side-bar .navbar a i{   /*---Icons styling--*/
+      width:60px;
+      height:80px;
+      padding-top: 30px;
+      padding-left: 25px;
+      margin: 0px;
+      font-size: 14px;
+    
+
+   }
+   .side-bar .navbar a span{ 
+      left: 0;
+      display: none;
+      padding: 0px;
+      
+   }
+
+   .content{    /*---Content inside styling--*/
+      max-width:300px; 
+      margin-left: 85px;
+   }
+   
+   .content img{      /*---Info img styling--*/
+      width:245px;
+      margin-top: 50px;
+      margin-bottom: 0px;
+   }
+
+   .content .about h1{
+      width:250px;     /*---About title styling--*/
+      font-size: 11px;
+      margin-top: 5px;
+   }
+   .line{            /*---line styling--*/
+      width:240px;
+      height: 1.5px;
+      margin: 6px 0px;
+   }
+   
+   .content .about p {   /*--Paragraph styling---*/
+      width: 240px;
+      font-size:10px;
+   }
+    
+    .content .about li{  /*--points styling---*/
+      width: 240px;
+      font-size:9.5px;
+    }
+
+    .content .about h2{   /*--bold text styling in middle ---*/
+      width: 240px;
+      font-size: 11px;
+
+    }
+
+    .content .jobroles{   /*--space between job & cards styling---*/
+      margin-top: 5px;
+      margin-bottom: 5px;
+   }
+
+   .content .jobroles h2{   /*--job opp.. text styling---*/
+      width: 240px;
+      font-size: 10px;
+   }
+   
+   .content .jobroles .carrers{   /*--roles blocks styling---*/
+      display: block;
+      width:240px ;
+      height:230px;       /*--height of the job opp.. section---*/
+      margin: 0px;
+      
+   }
+
+   .content .jobroles .carrers .role {   /*--Job roles block---*/
+      width:200px !important;
+      height:32px;
+      margin: 5px;
+      margin-top: 7px;
+      margin-left:20px;
+   }
+
+.content .jobroles .role h3{      /*--text of Role roles block ---*/
+font-size: 10px;
 }
+
+.privacy{                      /*--privacy policy block ---*/
+position: relative;
+height: 20px;
+width:300px;
+margin-left: 60px;
+
+}
+
+.contentr{
+   margin:0px 10px;
+
+}
+
+.contentr img{
+   width:260px;
+   height:640px;
+}
+
+.privacyr{
+   width:320px;
+}
+ 
+.box{              /*--top space for content ---*/
+   margin-top: 60px;
+}
+
+
+.videos{               /*--iframe & sidebar distance---*/
+   margin-left: 60px;
+   margin-top: 0;
+ }
+ .course{                /*-iframe outside ---*/
+   position: relative;
+   margin: 4px;
+   margin-bottom: 5px;
+ }
+.course h2{              /*--below iframe text---*/
+   font-size: 11px;
+   padding: 3px 0px;
+   padding-left: 8px;
+}
+
+ iframe{                /*--iframe styling ---*/
+   width:250px;
+   height: 135px;
+   margin: 0px 0px;
+ }
+ .container2 h1{       /*--title text styling ---*/
+   width: 260px;
+   margin-left: 33px;
+   font-size: 11px;
+   margin-top: 10px;
+   padding-top: 10px;
+ 
+
+ }
+
+ .accordion{            /*--accordion styling---*/
+   width:270px;
+   margin-left: 75px;
+   margin-top: 50px;
+   padding-top: 10px;
+ }
+ .accordion-content header{
+   padding: 0 10px;
+ }
+ .accordion-content header .title{
+   font-size: 10px;
+ }
+
+ .accordion-content header i{
+   font-size: 10px;
+ }
+ .accordion-content .description{
+   font-size: 10px;
+ }
+
+ .box{         /*--Projects page content margin--*/
+  margin: 40px 0px 0px 20px;   
+ }
+
+ .container1{          
+   display: inline;
+   justify-content: center;
+   width: 280px; 
+   height:220px;
+   margin-top: 0px;
+   
+}
+
+.container1 .card{   /*--Project card styling---*/
+   position: relative;
+   display: block;
+   width: 250px;   /*--width of card---*/
+   height:300px;
+   background-color: rgb(255, 255, 255);
+   margin-top: 0px;
+   margin-bottom: 0px;
+   border-radius: 10px;
+   padding: 5px;
+   margin-left: 63px;
+}
+
+
+.container1 .card .rec {
+   width: 250px;
+   height: 160px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   background-color: transparent;
+   margin-left: 0px;
+}
+
+.container1 .card .rec img{   /*--Project img---*/
+   width: 240px;
+   height: 150px;
+   border-radius: 10px;
+   margin-left: 0px;
+   
+   
+}
+
+.cardcontent{              /*--project cardcontent---*/
+   position: relative;
+   width:280px;
+   height:100px;
+   margin-top: 0px;
+   margin-bottom: 10px;
+   margin-left: 0;
+   padding-left: 6px;
+   
+   
+}
+.cardcontent h1{          /*--project title---*/
+   width: 260px;
+   font-size: 12px;
+   font-weight: 600;
+   
+}
+.container1 .card .cardcontent p{  /*--project info---*/
+   width: 240px;
+   font-size: 9px;
+   padding-right: 0px;
+   padding-top: 5px;
+   margin-bottom: 15px;
+   
+}
+ 
+.container1 .card a{          /*--Source code button styling---*/
+   position: relative;
+   display: inline;
+   width: 280px !important;
+   height: 40px;
+   list-style: none;
+   text-decoration: none;
+   background-color: #1AB700;
+   color: rgb(255, 255, 255);
+   border-radius: 5px;
+   font-size: 13px;
+   font-weight: 400;
+   justify-content: center;
+   align-items: center;
+   padding: 5px 70px;
+   margin-top: 10px;
+   margin-left: 0px;  
+}
+
+.privacy{             /*--privacy policy styling---*/
+   margin-top: 10px;
+}
+
+.cheatcontent{
+   max-width: 300px !important;    /* Content max width*/
+   margin-left: 85px; 
+   margin-top: 40px;
+      /* Content in center by giving marigin*/
+}
+
+.boxflex{
+   position: relative;
+   width:280px;
+   display:inline;
+   margin: 0;
+   
+}
+
+.boxes{           /*---boxs flex styling-*/
+   display: flex;
+   margin:5px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+.box3{
+   display: none;
+}
+.cheatcontent .box1{           /*---box styling-*/
+   width:100px;
+   background-color: #1AB700;
+   position:relative;
+   display: block;
+   margin: 10px;
+   padding: 5px;
+   border-radius: 5px;
+   font-size:6px;
+   color: black;
+}
+
+.cheatcontent .box2{
+   width:100px;
+   background-color: #7c7c7c;
+   position:relative;
+   margin-top: 10px;
+   padding: 5px;
+   border-radius: 5px;
+   font-size: 6px;
+   color: black;
+}
+
+.cheatcontent .box3{
+   width:80px;
+   background-color: #7c7c7c;
+   position:relative;
+   margin-top: 10px;
+   padding: 5px;
+   border-radius: 5px;
+   font-size: 6px;
+   color: black;
+   display: none;
+}
+.cheatcontent .boxflex .boxes .box1 li{
+   font-size: 7px;
+}
+.cheatcontent .boxflex .boxes .box2 li{
+   font-size: 7px;
+}
+.privacy{             /*--privacy policy styling---*/
+   margin-top: 10px;
+}
+}
+
+/*------------Mobile Screens 375px--*/
+
+
+
+@media screen and  (min-width :321px) and (max-width:360px) {
+   html{
+      height:920px;
+   }
+   
+   body{
+      width:360px;
+      height:900px;
+      padding: 0px;
+      padding-right: 10px;
+      padding-bottom: 0px;
+   }
+
+   .header{
+      width:300px;     /*---Header width--*/
+      height:40px;     /*---Header height--*/
+      position: fixed;
+     margin-left: 60px;  /*---Header left space--*/
+     border-radius: 0px 0px 10px 10px;  /*---Header Border--*/
+   }
+
+   .header .flex{    /*---Header img+h1 spacing--*/
+      padding:0px;
+      padding-top: 15px;
+      padding-left: 60px;
+   }
+
+   .flex img{       /*---Header python size--*/
+      height:18px;       
+      
+      }
+
+    .header .flex h1{ /*---Header h1 size--*/
+   font-size: 9px;
+   }
+
+   .side-bar{          /*---side bar size--*/
+      position: fixed;
+      width:60px;
+      height:920px;
+   }
+
+   .side-bar .profile{  
+      padding: 10px 10px;
+      padding-top: 50px;
+   }
+   .side-bar .profile .image{  /*---side bar image width--*/
+      width:40px;
+   }
+   .side-bar .profile .name{
+      display: none;
+   }
+
+   .side-bar .navbar a {     /*---box size in side bar--*/
+      width:60px;
+      height:80px;
+      padding: 0px;
+      line-height: 40px;
+      align-items: center;
+   }
+   .side-bar .navbar a i{   /*---Icons styling--*/
+      width:60px;
+      height:80px;
+      padding-top: 30px;
+      padding-left: 25px;
+      margin: 0px;
+      font-size: 14px;
+    
+
+   }
+   .side-bar .navbar a span{ 
+      left: 0;
+      display: none;
+      padding: 0px;
+      
+   }
+
+   .content{    /*---Content inside styling--*/
+      max-width:300px; 
+      margin-left: 85px;
+   }
+   
+   .content img{      /*---Info img styling--*/
+      width:245px;
+      margin-top: 50px;
+      margin-bottom: 0px;
+   }
+
+   .content .about h1{
+      width:250px;     /*---About title styling--*/
+      font-size: 11px;
+      margin-top: 5px;
+   }
+   .line{            /*---line styling--*/
+      width:240px;
+      height: 1.5px;
+      margin: 6px 0px;
+   }
+   
+   .content .about p {   /*--Paragraph styling---*/
+      width: 240px;
+      font-size:10px;
+   }
+    
+    .content .about li{  /*--points styling---*/
+      width: 240px;
+      font-size:9.5px;
+    }
+
+    .content .about h2{   /*--bold text styling in middle ---*/
+      width: 240px;
+      font-size: 11px;
+
+    }
+
+    .content .jobroles{   /*--space between job & cards styling---*/
+      margin-top: 5px;
+      margin-bottom: 5px;
+   }
+
+   .content .jobroles h2{   /*--job opp.. text styling---*/
+      width: 240px;
+      font-size: 10px;
+   }
+   
+   .content .jobroles .carrers{   /*--roles blocks styling---*/
+      display: block;
+      width:240px ;
+      height:230px;       /*--height of the job opp.. section---*/
+      margin: 0px;
+      
+   }
+
+   .content .jobroles .carrers .role {   /*--Job roles block---*/
+      width:200px !important;
+      height:32px;
+      margin: 5px;
+      margin-top: 7px;
+      margin-left:20px;
+   }
+
+.content .jobroles .role h3{      /*--text of Role roles block ---*/
+font-size: 10px;
+}
+
+.privacy{                      /*--privacy policy block ---*/
+position: relative;
+height: 20px;
+width:300px;
+margin-left: 60px;
+
+}
+
+.contentr{
+   margin:0px 10px;
+
+}
+
+.contentr img{
+   width:260px;
+   height:640px;
+}
+
+.privacyr{
+   width:320px;
+}
+ 
+.box{              /*--top space for content ---*/
+   margin-top: 60px;
+}
+
+
+.videos{               /*--iframe & sidebar distance---*/
+   margin-left: 60px;
+   margin-top: 0;
+ }
+ .course{                /*-iframe outside ---*/
+   position: relative;
+   margin: 4px;
+   margin-bottom: 5px;
+ }
+.course h2{              /*--below iframe text---*/
+   font-size: 11px;
+   padding: 3px 0px;
+   padding-left: 8px;
+}
+
+ iframe{                /*--iframe styling ---*/
+   width:250px;
+   height: 135px;
+   margin: 0px 0px;
+ }
+ .container2 h1{       /*--title text styling ---*/
+   width: 260px;
+   margin-left: 33px;
+   font-size: 11px;
+   margin-top: 10px;
+   padding-top: 10px;
+ 
+
+ }
+
+ .accordion{            /*--accordion styling---*/
+   width:270px;
+   margin-left: 75px;
+   margin-top: 50px;
+   padding-top: 10px;
+ }
+ .accordion-content header{
+   padding: 0 10px;
+ }
+ .accordion-content header .title{
+   font-size: 10px;
+ }
+
+ .accordion-content header i{
+   font-size: 10px;
+ }
+ .accordion-content .description{
+   font-size: 10px;
+ }
+
+ .box{         /*--Projects page content margin--*/
+  margin: 40px 0px 0px 20px;   
+ }
+
+ .container1{          
+   display: inline;
+   justify-content: center;
+   width: 280px; 
+   height:220px;
+   margin-top: 0px;
+   
+}
+
+.container1 .card{   /*--Project card styling---*/
+   position: relative;
+   display: block;
+   width: 250px;   /*--width of card---*/
+   height:300px;
+   background-color: rgb(255, 255, 255);
+   margin-top: 0px;
+   margin-bottom: 0px;
+   border-radius: 10px;
+   padding: 5px;
+   margin-left: 63px;
+}
+
+
+.container1 .card .rec {
+   width: 250px;
+   height: 160px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   background-color: transparent;
+   margin-left: 0px;
+}
+
+.container1 .card .rec img{   /*--Project img---*/
+   width: 240px;
+   height: 150px;
+   border-radius: 10px;
+   margin-left: 0px;
+   
+   
+}
+
+.cardcontent{              /*--project cardcontent---*/
+   position: relative;
+   width:280px;
+   height:100px;
+   margin-top: 0px;
+   margin-bottom: 10px;
+   margin-left: 0;
+   padding-left: 6px;
+   
+   
+}
+.cardcontent h1{          /*--project title---*/
+   width: 260px;
+   font-size: 12px;
+   font-weight: 600;
+   
+}
+.container1 .card .cardcontent p{  /*--project info---*/
+   width: 240px;
+   font-size: 9px;
+   padding-right: 0px;
+   padding-top: 5px;
+   margin-bottom: 15px;
+   
+}
+ 
+.container1 .card a{          /*--Source code button styling---*/
+   position: relative;
+   display: inline;
+   width: 280px !important;
+   height: 40px;
+   list-style: none;
+   text-decoration: none;
+   background-color: #1AB700;
+   color: rgb(255, 255, 255);
+   border-radius: 5px;
+   font-size: 13px;
+   font-weight: 400;
+   justify-content: center;
+   align-items: center;
+   padding: 5px 70px;
+   margin-top: 10px;
+   margin-left: 0px;  
+}
+
+.privacy{             /*--privacy policy styling---*/
+   margin-top: 10px;
+}
+
+.cheatcontent{
+   max-width: 300px !important;    /* Content max width*/
+   margin-left: 85px; 
+   margin-top: 40px;
+      /* Content in center by giving marigin*/
+}
+
+.boxflex{
+   position: relative;
+   width:280px;
+   display:inline;
+   margin: 0;
+   
+}
+
+.boxes{           /*---boxs flex styling-*/
+   display: flex;
+   margin:5px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+.box3{
+   display: none;
+}
+.cheatcontent .box1{           /*---box styling-*/
+   width:100px;
+   background-color: #1AB700;
+   position:relative;
+   display: block;
+   margin: 10px;
+   padding: 5px;
+   border-radius: 5px;
+   font-size:6px;
+   color: black;
+}
+
+.cheatcontent .box2{
+   width:100px;
+   background-color: #7c7c7c;
+   position:relative;
+   margin-top: 10px;
+   padding: 5px;
+   border-radius: 5px;
+   font-size: 6px;
+   color: black;
+}
+
+.cheatcontent .box3{
+   width:80px;
+   background-color: #7c7c7c;
+   position:relative;
+   margin-top: 10px;
+   padding: 5px;
+   border-radius: 5px;
+   font-size: 6px;
+   color: black;
+   display: none;
+}
+.cheatcontent .boxflex .boxes .box1 li{
+   font-size: 7px;
+}
+.cheatcontent .boxflex .boxes .box2 li{
+   font-size: 7px;
+}
+.privacy{             /*--privacy policy styling---*/
+   margin-top: 10px;
+}
+}
+
+/*********-------laptop SCREENS-----*******/
+
+
+@media screen  and (min-width : 1024px) and (max-width : 1280px) {
+   body{
+      width:100rem;
+      padding-left: 25rem;
+   
+   }
+
+   .header{
+      width:85vw;
+      height:6rem;
+   }
+
+   .side-bar{
+      position: fixed;
+      width:25rem;
+   }
+.side-bar .navbar a{
+      
+  width:25rem;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0.4rem;
+     
+}
+
+.content{
+   
+      margin:0 7rem;
+   }
+   
+.content img{
+  width:65vw;
+
+}
+
+.content .about{
+   width:72rem;
+}
+.content .about h1{
+   font-size:1.8rem;
+}
+
+.line{
+   width:60vw;
+
+} 
+
+.content .about{
+   width:70vw;
+}
+
+.content .about p{
+ margin-right: 1rem;
+}
+ 
+.content .about li{
+   margin-right: 3rem;
+}
+.content .about h2{
+   font-size: 1.5rem;
+}
+
+.content .jobroles h2{
+   font-size: 1.8rem;
+}
+
+.content .jobroles .carrers{
+   display: flex;
+  flex-wrap: wrap;
+   width:66.5rem !important;
+   margin-left: 2rem;
+}
+.content .jobroles .carrers .role{
+   width:28rem !important;
+   height: 6rem;
+   justify-content: center;
+   align-items: center;
+}
+
+.side-bar .navbar a.active{
+   background-color: rgba(0, 0, 0, 0.308);
+ }
+
+ .contentr{
+   margin: 0 4rem;
+
+ } 
+
+ .contentr img{
+   width:65vw;
+ }
+
+ 
+
+ .videos{
+   margin-left: 2rem;
+
+ }
+ .course{
+   position: relative;
+   margin: 0.4rem;
+
+ }
+ iframe{
+   width:23rem;
+   height: 16rem;
+   margin:0.3rem;
+ }
+ .container2 h1{
+   font-size: 1.9rem;
+
+ }
+ .course h2{
+   font-size:1.2rem;
+   padding-bottom: 0.5rem;
+   
+ }
+
+ .accordion{
+   width:74rem;
+   margin-left: 3rem;
+ }
+ 
+.container1{
+   width:73rem;
+   height: 20rem;
+}
+
+.container1 .card{
+   width:73rem;
+}
+.container1 .card .rec {
+   height: 17rem;
+}
+.container1 .card .rec img{
+   width:28rem;
+   height:18rem;
+}
+.cardcontent{
+   padding-left: 1rem;
+   margin-top: 2.5rem;
+}
+.cardcontent h1{
+   margin-top: -0.5rem;
+}
+
+.container1 .card .cardcontent p{
+   font-size: 1.4rem;
+}
+.container1 .card a{
+   margin-top: 0.8rem;
+   width:16rem;
+   height: 4rem;
+}
+
+.cheatcontent{
+   max-width:70rem !important;
+   margin-left: 2rem;
+}
+.cheatcontent .box1{
+width:14rem;
+}
+.cheatcontent .box2{
+   width:14rem;
+}
+.cheatcontent li{
+   font-size: 1rem;
+}
+}
+
