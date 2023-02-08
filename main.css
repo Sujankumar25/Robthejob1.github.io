@@ -245,17 +245,25 @@
 .contentr{
    max-width: 97rem !important; /* Content max width*/
    margin:0rem 10rem; 
+   margin-bottom: 0;
    
 }
  .contentr img {
    width: 65vw;
    margin-left:1rem;
  }
+
+ .contentr .mobilescreen img {
+   display:none;
+
+ }
 .privacyr{
-   margin: -0.4rem;
-   width: 114.5rem;
-   height: 3rem;
+   margin-left: 0px;
+   width: 120rem;
+   height: 4rem;
    background-color: black;
+   margin-top: 0;
+   margin-top: -4px;
 
 }
 
@@ -1014,15 +1022,28 @@ margin-left: 60px;
 
 }
 
-.contentr img{
-   width:260px;
-   height:640px;
+.contentr img{      /*-----previous img displaying none --*/
+   display:none;
 }
 
-.privacyr{
-   width:320px;
+.contentr .mobilescreen img {   /*- Styling Roadmap img--*/
+   display:block;
+   width:240px;
+   height:770px;
+   margin-top: 20px;
+   margin-left: 60px;
+
+ }
+
+.privacyr{            /*-----privacy policy styling-*/
+   width:360px;
+   height:25px;
+   margin-left: 60px;
+   margin-top: -17.8px;
 }
- 
+
+
+
 .box{              /*--top space for content ---*/
    margin-top: 60px;
 }
@@ -1406,12 +1427,23 @@ margin-left: 60px;
 }
 
 .contentr img{
-   width:260px;
-   height:640px;
+   display:none;
 }
 
+.contentr .mobilescreen img {
+   display:block;
+   width:260px;
+   height:770px;
+   margin-top: 20px;
+   margin-left: 70px;
+
+ }
+
 .privacyr{
-   width:320px;
+   width:360px;
+   height:25px;
+   margin-left: 60px;
+   margin-top: -17.8px;
 }
  
 .box{              /*--top space for content ---*/
@@ -1636,7 +1668,7 @@ margin-left: 60px;
 
 
 
-@media screen and  (min-width :321px) and (max-width:360px) {
+@media screen and  (min-width :361px) and (max-width:375px) {
    html{
       height:920px;
    }
@@ -1650,7 +1682,7 @@ margin-left: 60px;
    }
 
    .header{
-      width:300px;     /*---Header width--*/
+      width:315px;     /*---Header width--*/
       height:40px;     /*---Header height--*/
       position: fixed;
      margin-left: 60px;  /*---Header left space--*/
@@ -1715,7 +1747,7 @@ margin-left: 60px;
 
    .content{    /*---Content inside styling--*/
       max-width:300px; 
-      margin-left: 85px;
+      margin-left: 90px;
    }
    
    .content img{      /*---Info img styling--*/
@@ -1809,7 +1841,7 @@ margin-left: 60px;
 
 
 .videos{               /*--iframe & sidebar distance---*/
-   margin-left: 60px;
+   margin-left: 65px;
    margin-top: 0;
  }
  .course{                /*-iframe outside ---*/
@@ -1840,7 +1872,7 @@ margin-left: 60px;
 
  .accordion{            /*--accordion styling---*/
    width:270px;
-   margin-left: 75px;
+   margin-left: 80px;
    margin-top: 50px;
    padding-top: 10px;
  }
@@ -1859,7 +1891,7 @@ margin-left: 60px;
  }
 
  .box{         /*--Projects page content margin--*/
-  margin: 40px 0px 0px 20px;   
+  margin: 40px 0px 0px 25px;   
  }
 
  .container1{          
@@ -2020,6 +2052,408 @@ margin-left: 60px;
    margin-top: 10px;
 }
 }
+
+
+/*------mobile screen 390px + 393px--*/
+
+
+@media screen and  (min-width :361px) and (max-width:393px) {
+   html{
+      height:920px;
+   }
+   
+   body{
+      width:360px;
+      height:900px;
+      padding: 0px;
+      padding-right: 10px;
+      padding-bottom: 0px;
+   }
+
+   .header{
+      width:333px;     /*---Header width--*/
+      height:40px;     /*---Header height--*/
+      position: fixed;
+     margin-left: 60px;  /*---Header left space--*/
+     border-radius: 0px 0px 10px 10px;  /*---Header Border--*/
+   }
+
+   .header .flex{    /*---Header img+h1 spacing--*/
+      padding:0px;
+      padding-top: 15px;
+      padding-left: 60px;
+   }
+
+   .flex img{       /*---Header python size--*/
+      height:18px;       
+      
+      }
+
+    .header .flex h1{ /*---Header h1 size--*/
+   font-size: 9px;
+   }
+
+   .side-bar{          /*---side bar size--*/
+      position: fixed;
+      width:60px;
+      height:930px;
+   }
+
+   .side-bar .profile{  
+      padding: 10px 10px;
+      padding-top: 50px;
+   }
+   .side-bar .profile .image{  /*---side bar image width--*/
+      width:40px;
+   }
+   .side-bar .profile .name{
+      display: none;
+   }
+
+   .side-bar .navbar a {     /*---box size in side bar--*/
+      width:60px;
+      height:80px;
+      padding: 0px;
+      line-height: 40px;
+      align-items: center;
+   }
+   .side-bar .navbar a i{   /*---Icons styling--*/
+      width:60px;
+      height:80px;
+      padding-top: 30px;
+      padding-left: 25px;
+      margin: 0px;
+      font-size: 14px;
+    
+
+   }
+   .side-bar .navbar a span{ 
+      left: 0;
+      display: none;
+      padding: 0px;
+      
+   }
+
+   .content{    /*---Content inside styling--*/
+      max-width:300px; 
+      margin-left: 90px;
+   }
+   
+   .content img{      /*---Info img styling--*/
+      width:270px;
+      margin-top: 50px;
+      margin-bottom: 0px;
+   }
+
+   .content .about h1{
+      width:270px;     /*---About title styling--*/
+      font-size: 11px;
+      margin-top: 5px;
+   }
+   .line{            /*---line styling--*/
+      width:270px;
+      height: 1.5px;
+      margin: 6px 0px;
+   }
+   
+   .content .about p {   /*--Paragraph styling---*/
+      width: 270px;
+      font-size:10px;
+   }
+    
+    .content .about li{  /*--points styling---*/
+      width: 270px;
+      font-size:9.5px;
+    }
+
+    .content .about h2{   /*--bold text styling in middle ---*/
+      width: 270px;
+      font-size: 11px;
+
+    }
+
+    .content .jobroles{   /*--space between job & cards styling---*/
+      margin-top: 5px;
+      margin-bottom: 5px;
+   }
+
+   .content .jobroles h2{   /*--job opp.. text styling---*/
+      width: 270px;
+      font-size: 10px;
+   }
+   
+   .content .jobroles .carrers{   /*--roles blocks styling---*/
+      display: block;
+      width:270px ;
+      height:230px;       /*--height of the job opp.. section---*/
+      margin: 0px;
+      
+   }
+
+   .content .jobroles .carrers .role {   /*--Job roles block---*/
+      width:200px !important;
+      height:32px;
+      margin: 5px;
+      margin-top: 7px;
+      margin-left:30px;
+   }
+
+.content .jobroles .role h3{      /*--text of Role roles block ---*/
+font-size: 10px;
+}
+
+.privacy{                      /*--privacy policy block ---*/
+position: relative;
+height: 20px;
+width:333px;
+margin-left: 60px;
+
+}
+
+.contentr{
+   margin:0px 10px;
+
+}
+
+.contentr img{
+   display:none;
+}
+
+.contentr .mobilescreen img {
+   display:block;
+   width:260px;
+   height:770px;
+   margin-top: 20px;
+   margin-left: 70px;
+
+ }
+
+.privacyr{
+   width:360px;
+   height:25px;
+   margin-left: 60px;
+   margin-top: -17.8px;
+}
+ 
+.box{              /*--top space for content ---*/
+   margin-top: 60px;
+}
+
+
+.videos{               /*--iframe & sidebar distance---*/
+   margin-left: 70px;
+   margin-top: 0;
+ }
+ .course{                /*-iframe outside ---*/
+   position: relative;
+   margin: 4px;
+   margin-bottom: 5px;
+ }
+.course h2{              /*--below iframe text---*/
+   font-size: 11px;
+   padding: 3px 0px;
+   padding-left: 8px;
+}
+
+ iframe{                /*--iframe styling ---*/
+   width:260px;
+   height: 135px;
+   margin: 0px 0px;
+ }
+ .container2 h1{       /*--title text styling ---*/
+   width: 310px;
+   margin-left: 33px;
+   font-size: 12.5px;
+   margin-top: 10px;
+   padding-top: 10px;
+ 
+
+ }
+
+ .accordion{            /*--accordion styling---*/
+   width:290px;
+   margin-left: 80px;
+   margin-top: 50px;
+   padding-top: 10px;
+ }
+ .accordion-content header{
+   padding: 0 10px;
+ }
+ .accordion-content header .title{
+   font-size: 10px;
+ }
+
+ .accordion-content header i{
+   font-size: 10px;
+ }
+ .accordion-content .description{
+   font-size: 10px;
+ }
+
+ .box{         /*--Projects page content margin--*/
+  margin: 40px 0px 0px 20px;   
+ }
+
+ .container1{          
+   display: inline;
+   justify-content: center;
+   width: 280px; 
+   height:220px;
+   margin-top: 0px;
+   
+}
+
+.container1 .card{   /*--Project card styling---*/
+   position: relative;
+   display: block;
+   width: 280px;   /*--width of card---*/
+   height:300px;
+   background-color: rgb(255, 255, 255);
+   margin-top: 0px;
+   margin-bottom: 0px;
+   border-radius: 10px;
+   padding: 5px;
+   margin-left: 63px;
+}
+
+
+.container1 .card .rec {
+   width: 250px;
+   height: 160px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   background-color: transparent;
+   margin-left: 0px;
+}
+
+.container1 .card .rec img{   /*--Project img---*/
+   width: 270px;
+   height: 160px;
+   border-radius: 10px;
+   margin-left: 0px;
+   
+   
+}
+
+.cardcontent{              /*--project cardcontent---*/
+   position: relative;
+   width:280px;
+   height:100px;
+   margin-top: 5px;
+   margin-bottom: 10px;
+   margin-left: 0;
+   padding-left: 18px;
+   
+   
+}
+.cardcontent h1{          /*--project title---*/
+   width: 260px;
+   font-size: 12px;
+   font-weight: 600;
+   
+}
+.container1 .card .cardcontent p{  /*--project info---*/
+   width: 240px;
+   font-size: 9px;
+   padding-right: 0px;
+   padding-top: 5px;
+   margin-bottom: 15px;
+   
+}
+ 
+.container1 .card a{          /*--Source code button styling---*/
+   position: relative;
+   display: inline;
+   width: 280px !important;
+   height: 40px;
+   list-style: none;
+   text-decoration: none;
+   background-color: #1AB700;
+   color: rgb(255, 255, 255);
+   border-radius: 5px;
+   font-size: 13px;
+   font-weight: 400;
+   justify-content: center;
+   align-items: center;
+   padding: 5px 75px;
+   margin-top: 10px;
+   margin-left: 0px;  
+}
+
+.privacy{             /*--privacy policy styling---*/
+   margin-top: 10px;
+}
+
+.cheatcontent{
+   max-width: 300px !important;    /* Content max width*/
+   margin-left: 95px; 
+   margin-top: 40px;
+      /* Content in center by giving marigin*/
+}
+
+.boxflex{
+   position: relative;
+   width:280px;
+   display:inline;
+   margin: 0;
+   
+}
+
+.boxes{           /*---boxs flex styling-*/
+   display: flex;
+   margin:5px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+.box3{
+   display: none;
+}
+.cheatcontent .box1{           /*---box styling-*/
+   width:100px;
+   background-color: #1AB700;
+   position:relative;
+   display: block;
+   margin: 10px;
+   padding: 5px;
+   border-radius: 5px;
+   font-size:6px;
+   color: black;
+}
+
+.cheatcontent .box2{
+   width:100px;
+   background-color: #7c7c7c;
+   position:relative;
+   margin-top: 10px;
+   padding: 5px;
+   border-radius: 5px;
+   font-size: 6px;
+   color: black;
+}
+
+.cheatcontent .box3{
+   width:80px;
+   background-color: #7c7c7c;
+   position:relative;
+   margin-top: 10px;
+   padding: 5px;
+   border-radius: 5px;
+   font-size: 6px;
+   color: black;
+   display: none;
+}
+.cheatcontent .boxflex .boxes .box1 li{
+   font-size: 7px;
+}
+.cheatcontent .boxflex .boxes .box2 li{
+   font-size: 7px;
+}
+.privacy{             /*--privacy policy styling---*/
+   margin-top: 10px;
+}
+}
+
+
 
 /*********-------laptop SCREENS-----*******/
 
