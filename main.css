@@ -531,7 +531,7 @@ iframe{
    }
 
    .header{
-      width:260px;     /*---Header width--*/
+      width:260px !important ;     /*---Header width--*/
       height:40px;     /*---Header height--*/
       position: fixed;
        top:0; left:0; right: 0;
@@ -933,7 +933,7 @@ margin-left: 60px;
     
    .header{ 
       position: fixed ;
-      width:300px;     /*---Header width--*/
+      width: 300px !important;   /*---Header width--*/
       height:40px;     /*---Header height--*/
       top:0; left:0; right: 0;
       margin-left: 60px;  /*---Header left space--*/
@@ -1129,9 +1129,9 @@ margin-bottom: 0px;
    margin: 0px 0px;
  }
  .container2 h1{       /*--title text styling ---*/
-   width: 260px;
+   width: 290px;
    margin-left: 33px;
-   font-size: 11px;
+   font-size: 12px;
    margin-top: 10px;
    padding-top: 10px;
  
@@ -1336,7 +1336,7 @@ margin-bottom: 0px;
    }
 
    .header{
-      width:315px;     /*---Header width--*/
+      width:315px !important ;     /*---Header width--*/
       height:40px;     /*---Header height--*/
       position: fixed;
      margin-left: 60px;  /*---Header left space--*/
@@ -1346,7 +1346,7 @@ margin-bottom: 0px;
    .header .flex{    /*---Header img+h1 spacing--*/
       padding:0px;
       padding-top: 15px;
-      padding-left: 60px;
+      padding-left: 65px;
    }
 
    .flex img{       /*---Header python size--*/
@@ -1473,19 +1473,31 @@ width:315px !important;
 margin-left: 60px;
 margin-bottom: 0px;
 }
-
 .contentr{
    margin:0px 10px;
+
 }
 
 .contentr img{
-   width:260px;
-   height:640px;
+   display:none;
 }
 
+.contentr .mobilescreen img {
+   display:block;
+   width:260px;
+   height:770px;
+   margin-top: 20px;
+   margin-left: 75px;
+
+ }
+
 .privacyr{
-   width:315px !important;
+   width:315px;
+   height:25px;
+   margin-left: 60px;
+   margin-top: -17.8px;
 }
+
  
 .box{              /*--top space for content ---*/
    margin-top: 60px;
@@ -1513,16 +1525,24 @@ margin-bottom: 0px;
    margin: 0px 0px;
  }
  .container2 h1{       /*--title text styling ---*/
-   width: 260px;
+   width: 300px;
    margin-left: 33px;
-   font-size: 11px;
+   font-size: 12px;
    margin-top: 10px;
    padding-top: 10px;
  }
 
+ .privacy{                      /*--privacy policy block ---*/
+   position: relative;
+   height: 20px;
+   width:315px !important;
+   margin-left: 60px;
+   margin-bottom: 0px;
+   }
+
  .accordion{            /*--accordion styling---*/
    width:270px;
-   margin-left: 73px !important;
+   margin-left: 80px !important;
    margin-top: 50px;
    padding-top: 10px;
  }
@@ -1562,7 +1582,7 @@ margin-bottom: 0px;
    margin-bottom: 0px;
    border-radius: 10px;
    padding: 5px;
-   margin-left: 57px !important;
+   margin-left: 67px !important;
 }
 .container1 .card .rec {
    width: 250px;
@@ -1584,7 +1604,7 @@ margin-bottom: 0px;
 
 .cardcontent{              /*--project cardcontent---*/
    position: relative;
-   width:280px;
+   width:270px;
    height:100px;
    margin-top: 0px;
    margin-bottom: 10px;
@@ -1700,32 +1720,9 @@ margin-bottom: 0px;
 }
 }
 
-
 /*------mobile screen 390px--*/
 
-
-@media screen and  (max-width:390px){
-html{
-   height: 500px !important;
-}
-
-body{
-   height: 500px !important;
-}
-
-.header{
-   width:330px !important;
-}
-
-.privacy{
-   width:330px !important;
-}
-
-
-}
-
-/*------mobile screen 390px + 393px--*/
-@media screen and  (min-width :361px) and (max-width:393px) {
+@media screen and  (min-width :376px) and (max-width:390px) {
    html{
       height:620px;
    }
@@ -1739,7 +1736,8 @@ body{
    }
 
    .header{
-      width:333px;     /*---Header width--*/
+      width: 330px 
+     ;     /*---Header width--*/
       height:40px;     /*---Header height--*/
       position: fixed;
      margin-left: 60px;  /*---Header left space--*/
@@ -1749,7 +1747,7 @@ body{
    .header .flex{    /*---Header img+h1 spacing--*/
       padding:0px;
       padding-top: 15px;
-      padding-left: 60px;
+      padding-left: 70px;
    }
 
    .flex img{       /*---Header python size--*/
@@ -1873,7 +1871,7 @@ font-size: 10px;
 .privacy{                      /*--privacy policy block ---*/
 position: relative;
 height: 20px;
-width:333px;
+width:330px;
 margin-left: 60px;
 
 }
@@ -1897,7 +1895,7 @@ margin-left: 60px;
  }
 
 .privacyr{
-   width:333px;
+   width:330px;
    height:25px;
    margin-left: 60px;
    margin-top: -17.8px;
@@ -1930,8 +1928,8 @@ margin-left: 60px;
  }
  .container2 h1{       /*--title text styling ---*/
    width: 310px;
-   margin-left: 33px;
-   font-size: 12.5px;
+   margin-left: 38px;
+   font-size: 13px;
    margin-top: 10px;
    padding-top: 10px;
  
@@ -2123,90 +2121,805 @@ margin-left: 60px;
 
 
 
+/*------mobile screen  + 393px--*/
+@media screen and  (min-width :391px) and (max-width:393px) {
+   html{
+      height:620px;
+   }
+   
+   body{
+      width:360px;
+      height:500px;
+      padding: 0px;
+      padding-right: 10px;
+      padding-bottom: 0px;
+   }
 
-/*********-------Mobile screen 428px -----*******/
-
-@media screen  and (max-width : 428px){
    .header{
-      width:348px !important ;
+      width: 333px 
+     ;     /*---Header width--*/
+      height:40px;     /*---Header height--*/
+      position: fixed;
+     margin-left: 60px;  /*---Header left space--*/
+     border-radius: 0px 0px 10px 10px;  /*---Header Border--*/
    }
 
    .header .flex{    /*---Header img+h1 spacing--*/
       padding:0px;
       padding-top: 15px;
-      padding-left: 75px !important;
+      padding-left: 70px;
    }
 
-   .content{    /*---Content inside styling--*/ 
-      margin-left: 100px !important;
-   }
-
-   .privacy{                      /*--privacy policy block ---*/
-      position: relative;
-      height: 20px;
-      width:348px !important;
-      margin-left: 80px;
+   .flex img{       /*---Header python size--*/
+      height:18px;       
       
       }
 
-   .contentr .mobilescreen img {
-      display:block;
-      width:300px;
-      height:800px;
-      margin-top: 20px;
-      margin-left: 60px !important;
-   
-    } 
-    .privacyr{
-      width:348px !important;
-      height:25px;
-      margin-left: 80px;
-      margin-top: -18px;
+    .header .flex h1{ /*---Header h1 size--*/
+   font-size: 9px;
    }
 
-   .videos{               /*--iframe & sidebar distance---*/
-      margin-left: 25px !important;
-      margin-top: 0;
-    }
-    .container2 h1{       /*--title text styling ---*/
-      width: 328px !important;
-      margin-left: 40px;
-      font-size: 15px !important;
-      margin-top: 10px;
-      padding-top: 10px;
-      padding-left: 0;
-    }
+   .side-bar{          /*---side bar size--*/
+      position: fixed;
+      width:60px;
+      height:930px;
+   }
+
+   .side-bar .profile{  
+      padding: 10px 10px;
+      padding-top: 50px;
+   }
+   .side-bar .profile .image{  /*---side bar image width--*/
+      width:40px;
+   }
+   .side-bar .profile .name{
+      display: none;
+   }
+
+   .side-bar .navbar a {     /*---box size in side bar--*/
+      width:60px;
+      height:80px;
+      padding: 0px;
+      line-height: 40px;
+      align-items: center;
+   }
+   .side-bar .navbar a i{   /*---Icons styling--*/
+      width:60px;
+      height:80px;
+      padding-top: 30px;
+      padding-left: 25px;
+      margin: 0px;
+      font-size: 14px;
+    
+
+   }
+   .side-bar .navbar a span{ 
+      left: 0;
+      display: none;
+      padding: 0px;
+      
+   }
+
+   .content{    /*---Content inside styling--*/
+      max-width:300px; 
+      margin-left: 90px;
+   }
    
-    .accordion{            /*--accordion styling---*/
-      width:320px !important;
-      margin-left: 95px !important;
-      margin-top: 55px;
-      padding-top: 10px;
+   .content img{      /*---Info img styling--*/
+      width:270px;
+      margin-top: 50px;
+      margin-bottom: 0px;
+   }
+
+   .content .about h1{
+      width:270px;     /*---About title styling--*/
+      font-size: 11px;
+      margin-top: 5px;
+   }
+   .line{            /*---line styling--*/
+      width:270px;
+      height: 1.5px;
+      margin: 6px 0px;
+   }
+   
+   .content .about p {   /*--Paragraph styling---*/
+      width: 270px;
+      font-size:10px;
+   }
+    
+    .content .about li{  /*--points styling---*/
+      width: 270px;
+      font-size:9.5px;
     }
 
-    .box{         /*--Projects page content margin--*/
-      margin: 45px 0px 0px 0px !important;   
-     }
-     .container1 .card{   /*--Project card styling---*/
-      position: relative;
+    .content .about h2{   /*--bold text styling in middle ---*/
+      width: 270px;
+      font-size: 11px;
+
+    }
+
+    .content .jobroles{   /*--space between job & cards styling---*/
+      margin-top: 5px;
+      margin-bottom: 5px;
+   }
+
+   .content .jobroles h2{   /*--job opp.. text styling---*/
+      width: 270px;
+      font-size: 10px;
+   }
+   
+   .content .jobroles .carrers{   /*--roles blocks styling---*/
       display: block;
-      width: 300px;   /*--width of card---*/
-      height:330px;
-      background-color: rgb(255, 255, 255);
-      margin-top: 0px;
-      margin-bottom: 05px;
-      border-radius: 10px;
-      padding: 5px;
-      margin-left: 43px !important;
+      width:270px ;
+      height:230px;       /*--height of the job opp.. section---*/
+      margin: 0px;
+      
    }
+
+   .content .jobroles .carrers .role {   /*--Job roles block---*/
+      width:200px !important;
+      height:32px;
+      margin: 5px;
+      margin-top: 7px;
+      margin-left:30px;
+   }
+
+.content .jobroles .role h3{      /*--text of Role roles block ---*/
+font-size: 10px;
+}
+
+.privacy{                      /*--privacy policy block ---*/
+position: relative;
+height: 20px;
+width:333px;
+margin-left: 60px;
+
+}
+
+.contentr{
+   margin:0px 10px;
+
+}
+
+.contentr img{
+   display:none;
+}
+
+.contentr .mobilescreen img {
+   display:block;
+   width:260px;
+   height:770px;
+   margin-top: 20px;
+   margin-left: 80px;
+
+ }
+
+.privacyr{
+   width:333px;
+   height:25px;
+   margin-left: 60px;
+   margin-top: -17.8px;
+}
+ 
+.box{              /*--top space for content ---*/
+   margin-top: 60px;
 }
 
 
+.videos{               /*--iframe & sidebar distance---*/
+   margin-left: 70px;
+   margin-top: 0;
+ }
+ .course{                /*-iframe outside ---*/
+   position: relative;
+   margin: 4px;
+   margin-bottom: 5px;
+ }
+.course h2{              /*--below iframe text---*/
+   font-size: 11px;
+   padding: 3px 0px;
+   padding-left: 8px;
+}
+
+ iframe{                /*--iframe styling ---*/
+   width:260px;
+   height: 135px;
+   margin: 0px 0px;
+ }
+ .container2 h1{       /*--title text styling ---*/
+   width: 310px;
+   margin-left: 38px;
+   font-size: 13px;
+   margin-top: 10px;
+   padding-top: 10px;
+ 
+
+ }
+
+ .accordion{            /*--accordion styling---*/
+   width:290px;
+   margin-left: 80px;
+   margin-top: 50px;
+   padding-top: 10px;
+ }
+ .accordion-content header{
+   padding: 0 10px;
+ }
+ .accordion-content header .title{
+   font-size: 10px;
+ }
+
+ .accordion-content header i{
+   font-size: 10px;
+ }
+ .accordion-content .description{
+   font-size: 10px;
+ }
+
+ .box{         /*--Projects page content margin--*/
+  margin: 40px 0px 0px 20px;   
+ }
+
+ .container1{          
+   display: inline;
+   justify-content: center;
+   width: 280px; 
+   height:220px;
+   margin-top: 0px;
+   
+}
+
+.container1 .card{   /*--Project card styling---*/
+   position: relative;
+   display: block;
+   width: 280px;   /*--width of card---*/
+   height:300px;
+   background-color: rgb(255, 255, 255);
+   margin-top: 0px;
+   margin-bottom: 0px;
+   border-radius: 10px;
+   padding: 5px;
+   margin-left: 63px;
+}
+
+
+.container1 .card .rec {
+   width: 250px;
+   height: 160px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   background-color: transparent;
+   margin-left: 0px;
+}
+
+.container1 .card .rec img{   /*--Project img---*/
+   width: 270px;
+   height: 160px;
+   border-radius: 10px;
+   margin-left: 0px;
+   
+   
+}
+
+.cardcontent{              /*--project cardcontent---*/
+   position: relative;
+   width:280px;
+   height:100px;
+   margin-top: 5px;
+   margin-bottom: 10px;
+   margin-left: 0;
+   padding-left: 18px;
+   
+   
+}
+.cardcontent h1{          /*--project title---*/
+   width: 260px;
+   font-size: 12px;
+   font-weight: 600;
+   
+}
+.container1 .card .cardcontent p{  /*--project info---*/
+   width: 240px;
+   font-size: 9px;
+   padding-right: 0px;
+   padding-top: 5px;
+   margin-bottom: 15px;
+   
+}
+ 
+.container1 .card a{          /*--Source code button styling---*/
+   position: relative;
+   display: inline;
+   width: 280px !important;
+   height: 40px;
+   list-style: none;
+   text-decoration: none;
+   background-color: #1AB700;
+   color: rgb(255, 255, 255);
+   border-radius: 5px;
+   font-size: 13px;
+   font-weight: 400;
+   justify-content: center;
+   align-items: center;
+   padding: 5px 75px;
+   margin-top: 10px;
+   margin-left: 0px;  
+}
+
+.privacy{             /*--privacy policy styling---*/
+   margin-top: 10px;
+}
+
+.cheatcontent{
+   max-width: 300px !important;    /* Content max width*/
+   margin-left: 95px; 
+   margin-top: 40px;
+      /* Content in center by giving marigin*/
+}
+
+.boxflex{
+   position: relative;
+   width:280px;
+   display:inline;
+   margin: 0;
+   
+}
+
+.boxes{           /*---boxs flex styling-*/
+   display: flex;
+   margin:5px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+.box3{
+   display: none;
+}
+.cheatcontent .box1{           /*---box styling-*/
+   width:100px;
+   background-color: #1AB700;
+   position:relative;
+   display: block;
+   margin: 10px;
+   padding: 5px;
+   border-radius: 5px;
+   font-size:6px;
+   color: black;
+}
+
+.cheatcontent .box2{
+   width:100px;
+   background-color: #7c7c7c;
+   position:relative;
+   margin-top: 10px;
+   padding: 5px;
+   border-radius: 5px;
+   font-size: 6px;
+   color: black;
+}
+
+.cheatcontent .box3{
+   width:80px;
+   background-color: #7c7c7c;
+   position:relative;
+   margin-top: 10px;
+   padding: 5px;
+   border-radius: 5px;
+   font-size: 6px;
+   color: black;
+   display: none;
+}
+.cheatcontent .boxflex .boxes .box1 li{
+   font-size: 7px;
+}
+.cheatcontent .boxflex .boxes .box2 li{
+   font-size: 7px;
+}
+.privacy{             /*--privacy policy styling---*/
+   margin-top: 10px;
+}
+}
+
+/*-------Mobile screen 428px---*/
+
+
+@media screen  and (min-width:394px) and (max-width : 428px) {
+   html{
+      height:620px;
+   }
+   
+   body{
+      width:360px;
+      height:500px;
+      padding: 0px;
+      padding-right: 10px;
+      padding-bottom: 0px;
+   }
+
+   .header{
+      width: 368px ;     /*---Header width--*/
+      height:45px;     /*---Header height--*/
+      position: fixed;
+     margin-left: 60px;  /*---Header left space--*/
+     border-radius: 0px 0px 10px 10px;  /*---Header Border--*/
+   }
+
+   .header .flex{    /*---Header img+h1 spacing--*/
+      padding:0px;
+      padding-top: 15px;
+      padding-left: 80px;
+   }
+
+   .flex img{       /*---Header python size--*/
+      height:18px;       
+      
+      }
+
+    .header .flex h1{ /*---Header h1 size--*/
+   font-size: 10px;
+   }
+
+   .side-bar{          /*---side bar size--*/
+      position: fixed;
+      width:60px;
+      height:930px;
+   }
+
+   .side-bar .profile{  
+      padding: 10px 10px;
+      padding-top: 50px;
+   }
+   .side-bar .profile .image{  /*---side bar image width--*/
+      width:40px;
+   }
+   .side-bar .profile .name{
+      display: none;
+   }
+
+   .side-bar .navbar a {     /*---box size in side bar--*/
+      width:60px;
+      height:80px;
+      padding: 0px;
+      line-height: 40px;
+      align-items: center;
+   }
+   .side-bar .navbar a i{   /*---Icons styling--*/
+      width:60px;
+      height:80px;
+      padding-top: 30px;
+      padding-left: 25px;
+      margin: 0px;
+      font-size: 14px;
+    
+
+   }
+   .side-bar .navbar a span{ 
+      left: 0;
+      display: none;
+      padding: 0px;
+      
+   }
+
+   .content{    /*---Content inside styling--*/
+      max-width:300px; 
+      margin-left: 100px;
+   }
+   
+   .content img{      /*---Info img styling--*/
+      width:270px;
+      margin-top: 50px;
+      margin-bottom: 0px;
+   }
+
+   .content .about h1{
+      width:270px;     /*---About title styling--*/
+      font-size: 11px;
+      margin-top: 5px;
+   }
+   .line{            /*---line styling--*/
+      width:270px;
+      height: 1.5px;
+      margin: 6px 0px;
+   }
+   
+   .content .about p {   /*--Paragraph styling---*/
+      width: 270px;
+      font-size:10px;
+   }
+    
+    .content .about li{  /*--points styling---*/
+      width: 270px;
+      font-size:9.5px;
+    }
+
+    .content .about h2{   /*--bold text styling in middle ---*/
+      width: 270px;
+      font-size: 11px;
+
+    }
+
+    .content .jobroles{   /*--space between job & cards styling---*/
+      margin-top: 5px;
+      margin-bottom: 5px;
+   }
+
+   .content .jobroles h2{   /*--job opp.. text styling---*/
+      width: 270px;
+      font-size: 10px;
+   }
+   
+   .content .jobroles .carrers{   /*--roles blocks styling---*/
+      display: block;
+      width:270px ;
+      height:230px;       /*--height of the job opp.. section---*/
+      margin: 0px;
+      
+   }
+
+   .content .jobroles .carrers .role {   /*--Job roles block---*/
+      width:200px !important;
+      height:32px;
+      margin: 5px;
+      margin-top: 7px;
+      margin-left:30px;
+   }
+
+.content .jobroles .role h3{      /*--text of Role roles block ---*/
+font-size: 10px;
+}
+
+.privacy{                      /*--privacy policy block ---*/
+position: relative;
+height: 20px;
+width:368px;
+margin-left: 60px;
+
+}
+
+.contentr{
+   margin:0px 10px;
+
+}
+
+.contentr img{
+   display:none;
+}
+
+.contentr .mobilescreen img {
+   display:block;
+   width:300px;
+   height:800px;
+   margin-top: 25px;
+   margin-left: 80px;
+
+ }
+
+.privacyr{
+   width:368px;
+   height:25px;
+   margin-left: 60px;
+   margin-top: -17.8px;
+}
+ 
+.box{              /*--top space for content ---*/
+   margin-top: 60px;
+}
+
+
+.videos{               /*--iframe & sidebar distance---*/
+   margin-left: 50px;
+   margin-top: 0;
+ }
+ .course{                /*-iframe outside ---*/
+   position: relative;
+   margin: 4px;
+   margin-bottom: 5px;
+ }
+.course h2{              /*--below iframe text---*/
+   font-size: 13px;
+   padding: 3px 0px;
+   padding-left: 10px;
+}
+
+ iframe{                /*--iframe styling ---*/
+   width:300px;
+   height: 170px;
+   margin: 0px 0px;
+ }
+ .container2 h1{       /*--title text styling ---*/
+   width: 350px;
+   margin-left: 20px;
+   font-size: 15px;
+   margin-top: 10px;
+   padding-top: 10px;
+ }
+
+ .accordion{            /*--accordion styling---*/
+   width:310px;
+   margin-left: 90px;
+   margin-top: 55px;
+   padding-top: 10px;
+ }
+ .accordion-content header{
+   padding: 0 10px;
+ }
+ .accordion-content header .title{
+   font-size: 10px;
+ }
+
+ .accordion-content header i{
+   font-size: 10px;
+ }
+ .accordion-content .description{
+   font-size: 10px;
+ }
+
+ .box{         /*--Projects page content margin--*/
+  margin: 40px 0px 0px 40px;   
+ }
+
+ .container1{          
+   display: inline;
+   justify-content: center;
+   width: 280px; 
+   height:220px;
+   margin-top: 0px;
+   
+}
+
+.container1 .card{   /*--Project card styling---*/
+   position: relative;
+   display: block;
+   width: 280px;   /*--width of card---*/
+   height:300px;
+   background-color: rgb(255, 255, 255);
+   margin-top: 0px;
+   margin-bottom: 0px;
+   border-radius: 10px;
+   padding: 5px;
+   margin-left: 63px;
+}
+
+
+.container1 .card .rec {
+   width: 250px;
+   height: 160px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   background-color: transparent;
+   margin-left: 0px;
+}
+
+.container1 .card .rec img{   /*--Project img---*/
+   width: 270px;
+   height: 160px;
+   border-radius: 10px;
+   margin-left: 0px;
+   
+   
+}
+
+.cardcontent{              /*--project cardcontent---*/
+   position: relative;
+   width:280px;
+   height:100px;
+   margin-top: 5px;
+   margin-bottom: 10px;
+   margin-left: 0;
+   padding-left: 18px;
+   
+   
+}
+.cardcontent h1{          /*--project title---*/
+   width: 260px;
+   font-size: 12px;
+   font-weight: 600;
+   
+}
+.container1 .card .cardcontent p{  /*--project info---*/
+   width: 240px;
+   font-size: 9px;
+   padding-right: 0px;
+   padding-top: 5px;
+   margin-bottom: 15px;
+   
+}
+ 
+.container1 .card a{          /*--Source code button styling---*/
+   position: relative;
+   display: inline;
+   width: 280px !important;
+   height: 40px;
+   list-style: none;
+   text-decoration: none;
+   background-color: #1AB700;
+   color: rgb(255, 255, 255);
+   border-radius: 5px;
+   font-size: 13px;
+   font-weight: 400;
+   justify-content: center;
+   align-items: center;
+   padding: 5px 75px;
+   margin-top: 10px;
+   margin-left: 0px;  
+}
+
+.privacy{             /*--privacy policy styling---*/
+   margin-top: 10px;
+}
+
+.cheatcontent{
+   max-width: 300px !important;    /* Content max width*/
+   margin-left: 120px; 
+   margin-top: 40px;
+      /* Content in center by giving marigin*/
+}
+
+.boxflex{
+   position: relative;
+   width:280px;
+   display:inline;
+   margin: 0;
+   
+}
+
+.boxes{           /*---boxs flex styling-*/
+   display: flex;
+   margin:5px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+.box3{
+   display: none;
+}
+.cheatcontent .box1{           /*---box styling-*/
+   width:100px;
+   background-color: #1AB700;
+   position:relative;
+   display: block;
+   margin: 10px;
+   padding: 5px;
+   border-radius: 5px;
+   font-size:6px;
+   color: black;
+}
+
+.cheatcontent .box2{
+   width:100px;
+   background-color: #7c7c7c;
+   position:relative;
+   margin-top: 10px;
+   padding: 5px;
+   border-radius: 5px;
+   font-size: 6px;
+   color: black;
+}
+
+.cheatcontent .box3{
+   width:80px;
+   background-color: #7c7c7c;
+   position:relative;
+   margin-top: 10px;
+   padding: 5px;
+   border-radius: 5px;
+   font-size: 6px;
+   color: black;
+   display: none;
+}
+.cheatcontent .boxflex .boxes .box1 li{
+   font-size: 7px;
+}
+.cheatcontent .boxflex .boxes .box2 li{
+   font-size: 7px;
+}
+.privacy{             /*--privacy policy styling---*/
+   margin-top: 10px;
+}
+}
 
 /*********-------Mobile screen 480px -----*******/
 
 
-@media screen  and (min-width : 394px) and (max-width : 480px){
+@media screen  and (min-width : 429px) and (max-width : 480px){
       html{
          height:620px;
       }
@@ -2220,8 +2933,9 @@ margin-left: 60px;
       }
    
       .header{
-         width:400px;     /*---Header width--*/
-         height:45px;     /*---Header height--*/
+         width:400px;
+              /*---Header width--*/
+         height:50px;     /*---Header height--*/
          position: fixed;
         margin-left: 80px;  /*---Header left space--*/
         border-radius: 0px 0px 10px 10px;  /*---Header Border--*/
@@ -2286,6 +3000,7 @@ margin-left: 60px;
       .content{    /*---Content inside styling--*/
          max-width:300px; 
          margin-left: 120px;
+         margin-top: 5px;
       }
       
       .content img{      /*---Info img styling--*/
@@ -2372,7 +3087,7 @@ margin-left: 60px;
       display:block;
       width:300px;
       height:800px;
-      margin-top: 20px;
+      margin-top: 30px;
       margin-left: 80px;
    
     }
@@ -2410,7 +3125,7 @@ margin-left: 60px;
       margin: 0px 0px;
     }
     .container2 h1{       /*--title text styling ---*/
-      width: 400px;
+      width: 370px;
       margin-left: 40px;
       font-size: 17px;
       margin-top: 10px;
@@ -2421,7 +3136,7 @@ margin-left: 60px;
     .accordion{            /*--accordion styling---*/
       width:340px;
       margin-left: 110px;
-      margin-top: 55px;
+      margin-top: 65px;
       padding-top: 10px;
     }
     .accordion-content header{
@@ -2524,7 +3239,7 @@ margin-left: 60px;
       font-weight: 400;
       justify-content: center;
       align-items: center;
-      padding: 5px 75px;
+      padding: 5px 80px;
       margin-top: 50px !important;
       margin-left: 5px;  
    }
@@ -2602,15 +3317,421 @@ margin-left: 60px;
       margin-top: 10px;
    }
    }
+ 
+   /*-----------Tablets---*/
 
+   @media screen  and (min-width : 481px) and (max-width : 768px){
+      html{
+         height:620px;
+      }
+      
+      body{
+         width:360px;
+         height:500px;
+         padding: 0px;
+         padding-right: 10px;
+         padding-bottom: 0px;
+      }
+   
+      .header{
+         width:568px;
+              /*---Header width--*/
+         height:50px;     /*---Header height--*/
+         position: fixed;
+        margin-left: 200px;  /*---Header left space--*/
+        border-radius: 0px 0px 10px 10px;  /*---Header Border--*/
+      }
+   
+      .header .flex{    /*---Header img+h1 spacing--*/
+         padding:0px;
+         padding-top: 15px;
+         padding-left: 155px;
+      }
+   
+      .flex img{       /*---Header python size--*/
+         height:18px;       
+         
+         }
+   
+       .header .flex h1{ /*---Header h1 size--*/
+      font-size: 13px;
+      
+      }
+   
+      .side-bar{          /*---side bar size--*/
+         position: fixed;
+         width:200px;
+         height:930px;
+      }
+   
+      .side-bar .profile{  
+         padding: 10px 10px;
+         padding-top: 50px;
+      }
+      .side-bar .profile .image{  /*---side bar image width--*/
+         width:100px;
+      }
+      .side-bar .profile .name{
+         font-size: 18px;
+      }
+   
+      .side-bar .navbar a {     /*---box size in side bar--*/
+         width:200px;
+         height:60px;
+         padding: 0px;
+         display: block;
+         line-height: 40px;
+         align-items: center;
+      }
+      .side-bar .navbar a i{   /*---Icons styling--*/
+         
+         padding-top: 20px;
+         padding-left: 40px;
+         margin: 0px;
+         font-size: 16px;
+       
+   
+      }
+      .side-bar .navbar a span{ 
+         left: 0;
+         padding-left: 10px;
+         font-size: 14px;
+         
+      }
+   
+      .content{    /*---Content inside styling--*/
+         max-width:300px; 
+         margin-left: 270px;
+         margin-top: 5px;
+      }
+      
+      .content img{      /*---Info img styling--*/
+         width:420px;
+         margin-top: 65px;
+         margin-bottom: 0px;
+      }
+      .content .about{
+         width:430px;
+      } 
 
+      .content .about h1{
+         width:420px;     /*---About title styling--*/
+         font-size: 16px;
+         margin-top: 5px;
+      }
+      .line{            /*---line styling--*/
+         width:350px;
+         height: 1.5px;
+         margin: 6px 0px;
+      }
+      
+      .content .about p {   /*--Paragraph styling---*/
+         width: 420px;
+         font-size:10px;
+      }
+       
+       .content .about li{  /*--points styling---*/
+         width: 420px;
+         font-size:9.5px;
+       }
+   
+       .content .about h2{   /*--bold text styling in middle ---*/
+         width: 420px;
+         font-size: 11px;
+   
+       }
+   
+       .content .jobroles{   /*--space between job & cards styling---*/
+         margin-top: 5px;
+         margin-bottom: 5px;
+      }
+   
+      .content .jobroles h2{   /*--job opp.. text styling---*/
+         width: 420px;
+         font-size: 15px;
+      }
+      
+      .content .jobroles .carrers{   /*--roles blocks styling---*/
+         display: flex;
+         flex-wrap: wrap;
+         width:480px ;
+         height:180px;       /*--height of the job opp.. section---*/
+         margin-top: 10px;
+         gap: 0;
+         margin-left: 0;
+         
+      }
+   
+      .content .jobroles .carrers .role {   /*--Job roles block---*/
+         width:210px !important;
+         height:40px;
+         margin: 05;
+         
+      }
+   
+   .content .jobroles .role h3{      /*--text of Role roles block ---*/
+   font-size: 10px;
+   }
+   
+   .privacy{                      /*--privacy policy block ---*/
+   position: relative;
+   height: 20px;
+   width:568px;
+   margin-left: 200px;
+   
+   }
+   
+   .contentr{
+      margin:0px 200px;
+   
+   }
+   
+   .contentr img{
+      display:none;
+   }
+   
+   .contentr .mobilescreen img {
+      display:block;
+      width:350px;
+      height:900px;
+      margin-top: 30px;
+      margin-left: 80px;
+   
+    }
+   
+   .privacyr{
+      width:568px;
+      height:25px;
+      margin-left: 200px;
+      margin-top: -20px;
+   }
+    
+   .box{              /*--top space for content ---*/
+      margin-top: 50px !important;
+      width:500px;
+   }
+   
+   
+   .videos{               /*--iframe & sidebar distance---*/
+      display: flex;
+      width: 500px;
+      margin-left: 30px;
+      margin-top: 0;
+    }
 
+    .course{                /*-iframe outside ---*/
+      position: relative;
+      margin: 6px;
+      margin-bottom: 5px;
+    }
+   .course h2{              /*--below iframe text---*/
+      font-size: 12px;
+      padding: 3px 0px;
+      padding-left: 8px;
+   }
+   
+    iframe{                /*--iframe styling ---*/
+      width:230px ;
+      height: 160px !important;
+      margin: 0px 0px;
+    }
+    .container2 h1{       /*--title text styling ---*/
+      width: 370px;
+      margin-left: 30px;
+      font-size: 17px;
+      margin-top: 15px;
+      padding-top: 10px;
+      padding-left: 0;
+    }
+   
+    .accordion{            /*--accordion styling---*/
+      width:480px;
+      margin-left: 240px;
+      margin-top: 65px;
+      padding-top: 15x;
+    }
+    .accordion-content header{
+      padding: 0 10px;
+    }
+    .accordion-content header .title{
+      font-size: 14px;
+    }
+   
+    .accordion-content header i{
+      font-size: 12px;
+    }
+    .accordion-content .description{
+      font-size: 12px;
+    }
+   
+    .box{         /*--Projects page content margin--*/
+     margin: 55px 0px 0px 210px !important;   
+    }
+   
+    .container1{          
+      display: flex;
+      justify-content: center;
+      width: 400px; 
+      height:180px;
+      margin-top: 0px;
+      
+   }
+   
+   .container1 .card{   /*--Project card styling---*/
+      position: relative;
+      display: flex;
+      width: 540px;   /*--width of card---*/
+      height:200px;
+      margin-top: 0px;
+      margin-bottom: 05px;
+      border-radius: 10px;
+      padding: 5px;
+      margin-left: 63px;
+   }
+   
+   
+   .container1 .card .rec {
+      width: 250px;
+      height: 140px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      background-color: transparent;
+      margin-left: 0px;
+      margin-right: 0;
+   }
+   
+   .container1 .card .rec img{   /*--Project img---*/
+      width: 240px;
+      height: 160px;
+      border-radius: 10px;
+      margin-left: 0px;
+      margin-top: 5px;  
+      margin-right: 0px; 
+   }
+   
+   .cardcontent{              /*--project cardcontent---*/
+      position: relative;
+      width:280px;
+      height:100px;
+      margin-top: 15px;
+      margin-bottom: 10px;
+      margin-left: 0;
+      padding-left: 0;
+      
+      
+   }
+   .cardcontent h1{          /*--project title---*/
+      width: 260px;
+      font-size: 13px;
+      font-weight: 600;
+      
+   }
+   .container1 .card .cardcontent p{  /*--project info---*/
+      width: 260px;
+      font-size: 10px;
+      padding-right: 0px;
+      padding-top: 5px;
+      margin-bottom: 35px;
+      
+   }
+    
+   .container1 .card a{          /*--Source code button styling---*/
+      position: relative;
+      display: inline;
+      width: 280px !important;
+      height: 45px;
+      list-style: none;
+      text-decoration: none;
+      background-color: #1AB700;
+      color: rgb(255, 255, 255);
+      border-radius: 5px;
+      font-size: 13px;
+      font-weight: 400;
+      justify-content: center;
+      align-items: center;
+      padding: 5px 80px;
+      margin-top: 60px !important;
+      margin-left: 5px;  
+   }
+   
+   .privacy{             /*--privacy policy styling---*/
+      margin-top: 10px;
+   }
+   
+   .cheatcontent{
+      max-width: 400px !important;    /* Content max width*/
+      margin-left: 175px; 
+      margin-top: 45px;
+         /* Content in center by giving marigin*/
+   }
+   
+   .boxflex{
+      position: relative;
+      width:360px;
+      display:flex;
+      margin: 0;
+      
+   }
+   
+   .boxes{           /*---boxs flex styling-*/
+      width: 300px;
+      margin:5px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+   }
+   .box3{
+      display: none;
+   }
+   .cheatcontent .box1{           /*---box styling-*/
+      width:100px;
+      background-color: #1AB700;
+      position:relative;
+      display: block;
+      margin: 5px;
+      padding: 5px;
+      border-radius: 5px;
+      font-size:6px;
+      color: black;
+   }
+   
+   .cheatcontent .box2{
+      width:100px !important;
+      background-color: #7c7c7c;
+      position:relative;
+      margin: 5px;
+      padding: 5px;
+      border-radius: 5px;
+      font-size: 6px;
+      color: black;
+   }
+   
+   .cheatcontent .box3{
+      width:80px;
+      background-color: #7c7c7c;
+      position:relative;
+      margin-top: 10px;
+      padding: 5px;
+      border-radius: 5px;
+      font-size: 6px;
+      color: black;
+      display: none;
+   }
+   .cheatcontent .boxflex .boxes .box1 li{
+      font-size: 7px;
+   }
+   .cheatcontent .boxflex .boxes .box2 li{
+      font-size: 7px;
+   }
+   .privacy{             /*--privacy policy styling---*/
+      margin-top: 10px;
+   }
+   }
 
 
 /*********-------laptop SCREENS-----*******/
 
 
-@media screen  and (min-width : 1024px) and (max-width : 1280px) {
+@media screen  and (min-width : 769px) and (max-width : 1280px) {
    body{
       width:100rem;
       padding-left: 25rem;
