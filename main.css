@@ -43,10 +43,11 @@
     border-bottom: var(--border);
    
  }
+
+
+
  .header .flex {
     display: flex;
-    align-items: center;
-    justify-content: center;
     position: absolute;
     padding-left: 30%;
     padding-top: 1.8rem;
@@ -58,9 +59,11 @@
  }
 
 .header .flex h1{
+   width:300px;
     color: white;
-    word-spacing: 0.4rem;
+    word-spacing: 0.2rem;
     font-size: 1.6rem;
+    margin-top: 3px;
 
    }
  
@@ -3735,7 +3738,6 @@ margin-left: 60px;
    body{
       width:100rem;
       padding-left: 25rem;
-   
    }
 
    .header{
