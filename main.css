@@ -209,7 +209,7 @@
 .content .jobroles .carrers
 { display: flex;
   flex-wrap: wrap;
-  width: 95rem !important;
+  width: 95rem ;
   height: 22rem;
   gap:2rem;
   background: transparent;
@@ -235,7 +235,7 @@
 }
 .privacy{
    position: relative;
-   width: 114.5rem;
+   width: 120rem;
    height: 3rem;
    background-color: black;
 }
@@ -325,13 +325,13 @@ iframe{
    justify-content: center;
    width: 105rem; 
    height:22rem;
-   margin-left:2rem ;
+   margin-left:6rem ;
    
 }
 
 .container1 .card{
    position: relative;
-   width: 90rem;
+   width: 94rem;
    height:22rem;
    background-color: rgba(254, 55, 55, 0);
    margin-top: 3rem;
@@ -350,16 +350,17 @@ iframe{
 }
 
 .container1 .card .rec img{
-   width: 30rem;
+   width: 32rem;
    height: 19rem;
    border-radius: 1rem;
+   margin-right: 1rem;
 }
 
 .cardcontent{
    width:60rem;
    margin-top: 3rem;
    margin-bottom: 2rem;
-   padding-left: 5rem;
+  padding-left: 7rem;
    
 }
 .cardcontent h1{
@@ -512,366 +513,18 @@ iframe{
 }
 
 
-/*------------------------Mobile Screen(280px-galaxy fold)----------------*/
-
-
-
-
-@media screen and (max-width:280px) {
-   html{
-      height:1200px;
-   }
-   
-   body{
-      width:360px;
-      height:1250px;
-      padding: 0px;
-      padding-right: 10px;
-      padding-bottom: 0px;
-   }
-
-   .header{
-      width:280px;
-      height:50px;
-      position: fixed;
-     margin-left: 80px;
-     border-radius: 0px;
-   }
-
-   .header .flex{
-      padding:0px;
-      padding-top: 15px;
-      padding-left: 35px;
-   }
-
-   .flex img{
-      height:20px;
-      
-      }
-
-    .header .flex h1{
-   font-size: 10px;
-   }
-
-   .side-bar{
-      position: fixed;
-      width:80px;
-      height:1250px;
-   }
-
-   .side-bar .profile{
-      padding: 10px 10px;
-      padding-top: 50px;
-   }
-   .side-bar .profile .image{
-      width:50px;
-   }
-   .side-bar .profile .name{
-      display: none;
-   }
-
-   .side-bar .navbar a {
-      width:80px;
-      height:80px;
-      padding: 0px;
-    
-      line-height: 40px;
-      align-items: center;
-   }
-   .side-bar .navbar a i{
-      width:80px;
-      height:80px;
-      padding:30px;
-      padding-top: 30px;
-      margin: 0px;
-      font-size: 20px;
-      
-
-   }
-   .side-bar .navbar a span{
-      left: 0;
-      display: none;
-      padding: 0px;
-      
-   }
-
-   .content{
-      max-width: 280px;
-   }
-   
-   .content img{
-      width:260px;
-   }
-
-   .content .about h1{
-      width:260px;
-      font-size: 15px;
-      margin-top: 10px;
-   }
-   .line{
-      width:260px;
-      height: 2px;
-   }
-   
-   .content .about p {
-      width:260px;
-      font-size:12px;
-   }
-    
-    .content .about li{
-      width: 260px;
-      font-size:12px;
-    }
-
-    .content .about h2{
-      width: 260px;
-    }
-
-    .content .jobroles{
-      margin-top: 10px;
-      margin-bottom: 10px;
-   }
-
-   .content .jobroles h2{
-      width: 260px;
-      font-size: 15px;
-   }
-   
-   .content .jobroles .carrers{
-      display: block;
-      width:230px ;
-      height:290px;
-      margin: 0px;
-      
-   }
-
-   .content .jobroles .carrers .role {
-      width:240px !important;
-      height:40px;
-      margin: 10px;
-   }
-
-.content .jobroles .role h3{
-font-size: 12px;
-}
-
-.privacy{
-position: relative;
-width:280px;
-margin-left: 30px;
-
-}
-
-.contentr{
-   margin:0px 10px;
-
-}
-
-.contentr img{
-   width:260px;
-   height:640px;
-}
-
-.privacyr{
-   width:320px;
-}
-
-
-.videos{
-   margin-left: 50px;
- }
- .course{
-   position: relative;
-   margin: 4px;
-   margin-bottom: 10px;
-
- }
- iframe{
-   width:240px;
-   height: 135px;
-   margin: 0px 0px;
- }
- .container2 h1{
-   width: 260px;
-   margin-left: 30px;
-   font-size: 15px;
-   margin-top: 20px;
-   padding-left: 30px;
-
- }
-
- .accordion{
-   width:260px;
-   margin-left: 40px;
-   margin-top: 10px;
-   padding-top: 10px;
- }
- .accordion-content header{
-   padding: 0 10px;
- }
- .accordion-content header .title{
-   font-size: 10px;
- }
-
- .accordion-content header i{
-   font-size: 10px;
- }
- .accordion-content .description{
-   font-size: 10px;
- }
-
- .box{
-   margin-bottom: 20px;
- }
-
- .container1{
-   display: inline;
-   justify-content: center;
-   width: 280px; 
-   height:220px;
-   margin-left:25px ;
-   margin-top: 0px;
-   
-}
-
-.container1 .card{
-   position: relative;
-   display: block;
-   width: 320px;
-   height:280px;
-   background-color: rgba(254, 55, 55, 0);
-   margin-top: 0px;
-   margin-bottom: 0px;
-   border-radius: 20px;
-  
-  
-}
-.container1 .card .rec {
-   width: 250px;
-   height: 160px;
-   margin-top: 10px;
-   margin-bottom: 0px;
-   background-color: transparent;
-}
-
-.container1 .card .rec img{
-   width: 250px;
-   height: 160px;
-   border-radius: 10px;
-   margin-left: 30px;
-   
-}
-
-.cardcontent{
-   position: relative;
-   width:280px;
-   height:100px;
-   margin-top: 10px;
-   margin-bottom: 10px;
-   padding-left: 55px;
-   
-}
-.cardcontent h1{
-   width: 260px;
-   font-size: 12px;
-   font-weight: 600;
-}
-.container1 .card .cardcontent p{
-   width: 260px;
-   font-size: 10px;
-   padding-right: 0px;
-   padding-top: 5px;
-   margin-bottom: 15px;
-}
- 
-.container1 .card a{
-   position: relative;
-   display: inline;
-   width: 280px !important;
-   height: 40px;
-   list-style: none;
-   text-decoration: none;
-   background-color: #1AB700;
-   color: rgb(255, 255, 255);
-   border-radius: 5px;
-   font-size: 13px;
-   font-weight: 400;
-   justify-content: center;
-   align-items: center;
-   padding: 5px 65px;
-   margin-left: 10px;
-   
-}
-
-.cheatcontent{
-   max-width: 300px !important;    /* Content max width*/
-   margin-left: 35px; 
-   margin-right: 0px;
-   overflow: hidden;
-   padding-right: 0px;
-      /* Content in center by giving marigin*/
-}
-
-.boxflex{
-   position: relative;
-   width:280px;
-   display:flex;
-   margin: 0;
-   
-}
-
-.boxes{
-
-   margin:5px;
-}
-
-.cheatcontent .box1{
-   width:80px;
-   background-color: #1AB700;
-   position:relative;
-   display: block;
-   margin-top: 10px;
-   padding: 5px;
-   border-radius: 5px;
-   font-size:6px;
-   color: black;
-}
-
-.cheatcontent .box2{
-   width:80px;
-   background-color: #7c7c7c;
-   position:relative;
-   margin-top: 10px;
-   padding: 5px;
-   border-radius: 5px;
-   font-size: 6px;
-   color: black;
-}
-
-.cheatcontent .boxflex .boxes .box1 li{
-   font-size: 5px;
-}
-.cheatcontent .boxflex .boxes .box2 li{
-   font-size: 5px;
-}
-
-}
-
-
-
-
 /*------------Mobile Screens 320px--*/
 
 
 
 @media screen and  (min-width :281px) and (max-width:320px) {
    html{
-      height:920px;
+      height:720px;
    }
    
    body{
-      width:360px;
-      height:900px;
+      width:320px;
+      height:700px;
       padding: 0px;
       padding-right: 10px;
       padding-bottom: 0px;
@@ -881,6 +534,7 @@ margin-left: 30px;
       width:260px;     /*---Header width--*/
       height:40px;     /*---Header height--*/
       position: fixed;
+       top:0; left:0; right: 0;
      margin-left: 60px;  /*---Header left space--*/
      border-radius: 0px 0px 10px 10px;  /*---Header Border--*/
    }
@@ -902,6 +556,7 @@ margin-left: 30px;
 
    .side-bar{          /*---side bar size--*/
       position: fixed;
+      top: 0; left: 0;
       width:60px;
       height:920px;
    }
@@ -923,6 +578,8 @@ margin-left: 30px;
       padding: 0px;
       line-height: 40px;
       align-items: center;
+      display: block;
+
    }
    .side-bar .navbar a i{   /*---Icons styling--*/
       width:60px;
@@ -942,7 +599,7 @@ margin-left: 30px;
    }
 
    .content{    /*---Content inside styling--*/
-      max-width: 260px; 
+      max-width: 240px; 
       margin-left: 70px;
    }
    
@@ -951,9 +608,9 @@ margin-left: 30px;
       margin-top: 50px;
       margin-bottom: 0px;
    }
-
+ 
    .content .about h1{
-      width:250px;     /*---About title styling--*/
+      width:240px;     /*---About title styling--*/
       font-size: 11px;
       margin-top: 5px;
    }
@@ -980,6 +637,7 @@ margin-left: 30px;
     }
 
     .content .jobroles{   /*--space between job & cards styling---*/
+      width:240px;
       margin-top: 5px;
       margin-bottom: 5px;
    }
@@ -1036,7 +694,7 @@ margin-left: 60px;
  }
 
 .privacyr{            /*-----privacy policy styling-*/
-   width:360px;
+   width:260px;
    height:25px;
    margin-left: 60px;
    margin-top: -17.8px;
@@ -1075,8 +733,6 @@ margin-left: 60px;
    font-size: 11px;
    margin-top: 10px;
    padding-top: 10px;
- 
-
  }
 
  .accordion{            /*--accordion styling---*/
@@ -1106,10 +762,9 @@ margin-left: 60px;
  .container1{          
    display: inline;
    justify-content: center;
-   width: 280px; 
+   width: 260px; 
    height:220px;
-   margin-top: 0px;
-   
+   margin-top: 0px; 
 }
 
 .container1 .card{   /*--Project card styling---*/
@@ -1125,9 +780,8 @@ margin-left: 60px;
    margin-left: 45px;
 }
 
-
 .container1 .card .rec {
-   width: 250px;
+   width: 240px !important;
    height: 160px;
    margin-top: 0px;
    margin-bottom: 0px;
@@ -1139,41 +793,35 @@ margin-left: 60px;
    width: 240px;
    height: 150px;
    border-radius: 10px;
-   margin-left: 0px;
-   
-   
+   margin-left: 0px;   
 }
 
 .cardcontent{              /*--project cardcontent---*/
    position: relative;
-   width:280px;
+   width:240px;
    height:100px;
    margin-top: 0px;
    margin-bottom: 10px;
    margin-left: 0;
-   padding-left: 6px;
-   
-   
+   padding-left: 6px; 
 }
 .cardcontent h1{          /*--project title---*/
-   width: 260px;
+   width: 240px;
    font-size: 12px;
-   font-weight: 600;
-   
+   font-weight: 600;   
 }
 .container1 .card .cardcontent p{  /*--project info---*/
    width: 240px;
    font-size: 9px;
    padding-right: 0px;
    padding-top: 5px;
-   margin-bottom: 15px;
-   
+   margin-bottom: 15px; 
 }
  
 .container1 .card a{          /*--Source code button styling---*/
    position: relative;
    display: inline;
-   width: 280px !important;
+   width: 250px !important;
    height: 40px;
    list-style: none;
    text-decoration: none;
@@ -1194,18 +842,17 @@ margin-left: 60px;
 }
 
 .cheatcontent{
-   max-width: 260px !important;    /* Content max width*/
-   margin-left: 65px; 
+   max-width: 270px !important;    /* Content max width*/
+   margin-left: 85px; 
    margin-top: 40px;
       /* Content in center by giving marigin*/
 }
 
 .boxflex{
    position: relative;
-   width:280px;
+   width:290px;
    display:inline;
-   margin: 0;
-   
+   margin: 0; 
 }
 
 .boxes{           /*---boxs flex styling-*/
@@ -1213,6 +860,7 @@ margin-left: 60px;
    margin:5px;
    margin-top: 0px;
    margin-bottom: 0px;
+   gap: 10px;
 }
 .box3{
    display: none;
@@ -1269,24 +917,28 @@ margin-left: 60px;
 
 
 @media screen and  (min-width :321px) and (max-width:360px) {
-   html{
-      height:920px;
-   }
    
-   body{
-      width:360px;
-      height:900px;
-      padding: 0px;
-      padding-right: 10px;
-      padding-bottom: 0px;
+   html{
+      height:720px;
    }
 
-   .header{
+   body{
+      width:360px;
+      height:700px;
+      padding: 0;
+      padding-right: 10px;
+      padding-bottom: 0px;
+      margin-top: 0;  
+   }
+    
+   .header{ 
+      position: fixed ;
       width:300px;     /*---Header width--*/
       height:40px;     /*---Header height--*/
-      position: fixed;
-     margin-left: 60px;  /*---Header left space--*/
-     border-radius: 0px 0px 10px 10px;  /*---Header Border--*/
+      top:0; left:0; right: 0;
+      margin-left: 60px;  /*---Header left space--*/
+      border-radius: 0px 0px 10px 10px; 
+      /*---Header Border--*/
    }
 
    .header .flex{    /*---Header img+h1 spacing--*/
@@ -1306,8 +958,10 @@ margin-left: 60px;
 
    .side-bar{          /*---side bar size--*/
       position: fixed;
+      top: 0; left: 0;
       width:60px;
-      height:920px;
+      height:900px;
+      z-index: 1200;
    }
 
    .side-bar .profile{  
@@ -1327,6 +981,7 @@ margin-left: 60px;
       padding: 0px;
       line-height: 40px;
       align-items: center;
+      display: block;
    }
    .side-bar .navbar a i{   /*---Icons styling--*/
       width:60px;
@@ -1348,6 +1003,7 @@ margin-left: 60px;
    .content{    /*---Content inside styling--*/
       max-width:300px; 
       margin-left: 85px;
+
    }
    
    .content img{      /*---Info img styling--*/
@@ -1416,8 +1072,9 @@ font-size: 10px;
 .privacy{                      /*--privacy policy block ---*/
 position: relative;
 height: 20px;
-width:300px;
+width:300px !important;
 margin-left: 60px;
+margin-bottom: 0px;
 
 }
 
@@ -1440,7 +1097,7 @@ margin-left: 60px;
  }
 
 .privacyr{
-   width:360px;
+   width:300px;
    height:25px;
    margin-left: 60px;
    margin-top: -17.8px;
@@ -1543,19 +1200,16 @@ margin-left: 60px;
    border-radius: 10px;
    margin-left: 0px;
    
-   
 }
 
 .cardcontent{              /*--project cardcontent---*/
    position: relative;
-   width:280px;
+   width:260px;
    height:100px;
    margin-top: 0px;
    margin-bottom: 10px;
    margin-left: 0;
    padding-left: 6px;
-   
-   
 }
 .cardcontent h1{          /*--project title---*/
    width: 260px;
@@ -1670,12 +1324,12 @@ margin-left: 60px;
 
 @media screen and  (min-width :361px) and (max-width:375px) {
    html{
-      height:920px;
+      height:520px !important;
    }
    
    body{
       width:360px;
-      height:900px;
+      height:500px !important;
       padding: 0px;
       padding-right: 10px;
       padding-bottom: 0px;
@@ -1707,7 +1361,7 @@ margin-left: 60px;
    .side-bar{          /*---side bar size--*/
       position: fixed;
       width:60px;
-      height:920px;
+      
    }
 
    .side-bar .profile{  
@@ -1798,7 +1452,6 @@ margin-left: 60px;
       width:240px ;
       height:230px;       /*--height of the job opp.. section---*/
       margin: 0px;
-      
    }
 
    .content .jobroles .carrers .role {   /*--Job roles block---*/
@@ -1816,14 +1469,13 @@ font-size: 10px;
 .privacy{                      /*--privacy policy block ---*/
 position: relative;
 height: 20px;
-width:300px;
+width:315px !important;
 margin-left: 60px;
-
+margin-bottom: 0px;
 }
 
 .contentr{
    margin:0px 10px;
-
 }
 
 .contentr img{
@@ -1832,7 +1484,7 @@ margin-left: 60px;
 }
 
 .privacyr{
-   width:320px;
+   width:315px !important;
 }
  
 .box{              /*--top space for content ---*/
@@ -1841,7 +1493,7 @@ margin-left: 60px;
 
 
 .videos{               /*--iframe & sidebar distance---*/
-   margin-left: 65px;
+   margin-left: 60px !important;
    margin-top: 0;
  }
  .course{                /*-iframe outside ---*/
@@ -1866,13 +1518,11 @@ margin-left: 60px;
    font-size: 11px;
    margin-top: 10px;
    padding-top: 10px;
- 
-
  }
 
  .accordion{            /*--accordion styling---*/
    width:270px;
-   margin-left: 80px;
+   margin-left: 73px !important;
    margin-top: 50px;
    padding-top: 10px;
  }
@@ -1899,8 +1549,7 @@ margin-left: 60px;
    justify-content: center;
    width: 280px; 
    height:220px;
-   margin-top: 0px;
-   
+   margin-top: 0px; 
 }
 
 .container1 .card{   /*--Project card styling---*/
@@ -1913,10 +1562,8 @@ margin-left: 60px;
    margin-bottom: 0px;
    border-radius: 10px;
    padding: 5px;
-   margin-left: 63px;
+   margin-left: 57px !important;
 }
-
-
 .container1 .card .rec {
    width: 250px;
    height: 160px;
@@ -2054,17 +1701,38 @@ margin-left: 60px;
 }
 
 
+/*------mobile screen 390px--*/
+
+
+@media screen and  (max-width:390px){
+html{
+   height: 500px !important;
+}
+
+body{
+   height: 500px !important;
+}
+
+.header{
+   width:330px !important;
+}
+
+.privacy{
+   width:330px !important;
+}
+
+
+}
+
 /*------mobile screen 390px + 393px--*/
-
-
 @media screen and  (min-width :361px) and (max-width:393px) {
    html{
-      height:920px;
+      height:620px;
    }
    
    body{
       width:360px;
-      height:900px;
+      height:500px;
       padding: 0px;
       padding-right: 10px;
       padding-bottom: 0px;
@@ -2224,12 +1892,12 @@ margin-left: 60px;
    width:260px;
    height:770px;
    margin-top: 20px;
-   margin-left: 70px;
+   margin-left: 80px;
 
  }
 
 .privacyr{
-   width:360px;
+   width:333px;
    height:25px;
    margin-left: 60px;
    margin-top: -17.8px;
@@ -2452,6 +2120,490 @@ margin-left: 60px;
    margin-top: 10px;
 }
 }
+
+
+
+
+/*********-------Mobile screen 428px -----*******/
+
+@media screen  and (max-width : 428px){
+   .header{
+      width:348px !important ;
+   }
+
+   .header .flex{    /*---Header img+h1 spacing--*/
+      padding:0px;
+      padding-top: 15px;
+      padding-left: 75px !important;
+   }
+
+   .content{    /*---Content inside styling--*/ 
+      margin-left: 100px !important;
+   }
+
+   .privacy{                      /*--privacy policy block ---*/
+      position: relative;
+      height: 20px;
+      width:348px !important;
+      margin-left: 80px;
+      
+      }
+
+   .contentr .mobilescreen img {
+      display:block;
+      width:300px;
+      height:800px;
+      margin-top: 20px;
+      margin-left: 60px !important;
+   
+    } 
+    .privacyr{
+      width:348px !important;
+      height:25px;
+      margin-left: 80px;
+      margin-top: -18px;
+   }
+
+   .videos{               /*--iframe & sidebar distance---*/
+      margin-left: 25px !important;
+      margin-top: 0;
+    }
+    .container2 h1{       /*--title text styling ---*/
+      width: 328px !important;
+      margin-left: 40px;
+      font-size: 15px !important;
+      margin-top: 10px;
+      padding-top: 10px;
+      padding-left: 0;
+    }
+   
+    .accordion{            /*--accordion styling---*/
+      width:320px !important;
+      margin-left: 95px !important;
+      margin-top: 55px;
+      padding-top: 10px;
+    }
+
+    .box{         /*--Projects page content margin--*/
+      margin: 45px 0px 0px 0px !important;   
+     }
+     .container1 .card{   /*--Project card styling---*/
+      position: relative;
+      display: block;
+      width: 300px;   /*--width of card---*/
+      height:330px;
+      background-color: rgb(255, 255, 255);
+      margin-top: 0px;
+      margin-bottom: 05px;
+      border-radius: 10px;
+      padding: 5px;
+      margin-left: 43px !important;
+   }
+}
+
+
+
+/*********-------Mobile screen 480px -----*******/
+
+
+@media screen  and (min-width : 394px) and (max-width : 480px){
+      html{
+         height:620px;
+      }
+      
+      body{
+         width:360px;
+         height:500px;
+         padding: 0px;
+         padding-right: 10px;
+         padding-bottom: 0px;
+      }
+   
+      .header{
+         width:400px;     /*---Header width--*/
+         height:45px;     /*---Header height--*/
+         position: fixed;
+        margin-left: 80px;  /*---Header left space--*/
+        border-radius: 0px 0px 10px 10px;  /*---Header Border--*/
+      }
+   
+      .header .flex{    /*---Header img+h1 spacing--*/
+         padding:0px;
+         padding-top: 15px;
+         padding-left: 95px;
+      }
+   
+      .flex img{       /*---Header python size--*/
+         height:18px;       
+         
+         }
+   
+       .header .flex h1{ /*---Header h1 size--*/
+      font-size: 11px;
+      }
+   
+      .side-bar{          /*---side bar size--*/
+         position: fixed;
+         width:80px;
+         height:930px;
+      }
+   
+      .side-bar .profile{  
+         padding: 10px 10px;
+         padding-top: 50px;
+      }
+      .side-bar .profile .image{  /*---side bar image width--*/
+         width:40px;
+      }
+      .side-bar .profile .name{
+         display: none;
+      }
+   
+      .side-bar .navbar a {     /*---box size in side bar--*/
+         width:80px;
+         height:80px;
+         padding: 0px;
+         line-height: 40px;
+         align-items: center;
+      }
+      .side-bar .navbar a i{   /*---Icons styling--*/
+         width:80px;
+         height:80px;
+         padding-top: 30px;
+         padding-left: 32px;
+         margin: 0px;
+         font-size: 16px;
+       
+   
+      }
+      .side-bar .navbar a span{ 
+         left: 0;
+         display: none;
+         padding: 0px;
+         
+      }
+   
+      .content{    /*---Content inside styling--*/
+         max-width:300px; 
+         margin-left: 120px;
+      }
+      
+      .content img{      /*---Info img styling--*/
+         width:320px;
+         margin-top: 55px;
+         margin-bottom: 0px;
+      }
+   
+      .content .about h1{
+         width:320px;     /*---About title styling--*/
+         font-size: 11px;
+         margin-top: 5px;
+      }
+      .line{            /*---line styling--*/
+         width:320px;
+         height: 1.5px;
+         margin: 6px 0px;
+      }
+      
+      .content .about p {   /*--Paragraph styling---*/
+         width: 320px;
+         font-size:10px;
+      }
+       
+       .content .about li{  /*--points styling---*/
+         width: 320px;
+         font-size:9.5px;
+       }
+   
+       .content .about h2{   /*--bold text styling in middle ---*/
+         width: 320px;
+         font-size: 11px;
+   
+       }
+   
+       .content .jobroles{   /*--space between job & cards styling---*/
+         margin-top: 5px;
+         margin-bottom: 5px;
+      }
+   
+      .content .jobroles h2{   /*--job opp.. text styling---*/
+         width: 320px;
+         font-size: 10px;
+      }
+      
+      .content .jobroles .carrers{   /*--roles blocks styling---*/
+         display: block;
+         width:320px ;
+         height:230px;       /*--height of the job opp.. section---*/
+         margin: 0px;
+         
+      }
+   
+      .content .jobroles .carrers .role {   /*--Job roles block---*/
+         width:250px !important;
+         height:32px;
+         margin: 5px;
+         margin-top: 7px;
+         margin-left:30px;
+      }
+   
+   .content .jobroles .role h3{      /*--text of Role roles block ---*/
+   font-size: 10px;
+   }
+   
+   .privacy{                      /*--privacy policy block ---*/
+   position: relative;
+   height: 20px;
+   width:400px;
+   margin-left: 80px;
+   
+   }
+   
+   .contentr{
+      margin:0px 40px;
+   
+   }
+   
+   .contentr img{
+      display:none;
+   }
+   
+   .contentr .mobilescreen img {
+      display:block;
+      width:300px;
+      height:800px;
+      margin-top: 20px;
+      margin-left: 80px;
+   
+    }
+   
+   .privacyr{
+      width:400px;
+      height:25px;
+      margin-left: 80px;
+      margin-top: -18px;
+   }
+    
+   .box{              /*--top space for content ---*/
+      margin-top: 50px !important;
+   }
+   
+   
+   .videos{               /*--iframe & sidebar distance---*/
+      margin-left: 50px;
+      margin-top: 0;
+    }
+    .course{                /*-iframe outside ---*/
+      position: relative;
+      margin: 6px;
+      margin-bottom: 5px;
+    }
+   .course h2{              /*--below iframe text---*/
+      font-size: 15px;
+      padding: 3px 0px;
+      padding-left: 8px;
+   }
+   
+    iframe{                /*--iframe styling ---*/
+      width:320px ;
+      height: 180px !important;
+      margin: 0px 0px;
+    }
+    .container2 h1{       /*--title text styling ---*/
+      width: 400px;
+      margin-left: 40px;
+      font-size: 17px;
+      margin-top: 10px;
+      padding-top: 10px;
+      padding-left: 0;
+    }
+   
+    .accordion{            /*--accordion styling---*/
+      width:340px;
+      margin-left: 110px;
+      margin-top: 55px;
+      padding-top: 10px;
+    }
+    .accordion-content header{
+      padding: 0 10px;
+    }
+    .accordion-content header .title{
+      font-size: 10px;
+    }
+   
+    .accordion-content header i{
+      font-size: 10px;
+    }
+    .accordion-content .description{
+      font-size: 10px;
+    }
+   
+    .box{         /*--Projects page content margin--*/
+     margin: 45px 0px 0px 60px !important;   
+    }
+   
+    .container1{          
+      display: inline;
+      justify-content: center;
+      width: 400px; 
+      height:220px;
+      margin-top: 0px;
+      
+   }
+   
+   .container1 .card{   /*--Project card styling---*/
+      position: relative;
+      display: block;
+      width: 300px;   /*--width of card---*/
+      height:330px;
+      background-color: rgb(255, 255, 255);
+      margin-top: 0px;
+      margin-bottom: 05px;
+      border-radius: 10px;
+      padding: 5px;
+      margin-left: 63px;
+   }
+   
+   
+   .container1 .card .rec {
+      width: 250px;
+      height: 160px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      background-color: transparent;
+      margin-left: 0px;
+   }
+   
+   .container1 .card .rec img{   /*--Project img---*/
+      width: 280px;
+      height: 170px;
+      border-radius: 10px;
+      margin-left: 5px;
+      margin-top: 5px;
+      
+      
+   }
+   
+   .cardcontent{              /*--project cardcontent---*/
+      position: relative;
+      width:280px;
+      height:100px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      margin-left: 0;
+      padding-left: 18px;
+      
+      
+   }
+   .cardcontent h1{          /*--project title---*/
+      width: 260px;
+      font-size: 13px;
+      font-weight: 600;
+      
+   }
+   .container1 .card .cardcontent p{  /*--project info---*/
+      width: 260px;
+      font-size: 9px;
+      padding-right: 0px;
+      padding-top: 5px;
+      margin-bottom: 20px;
+      
+   }
+    
+   .container1 .card a{          /*--Source code button styling---*/
+      position: relative;
+      display: inline;
+      width: 280px !important;
+      height: 45px;
+      list-style: none;
+      text-decoration: none;
+      background-color: #1AB700;
+      color: rgb(255, 255, 255);
+      border-radius: 5px;
+      font-size: 13px;
+      font-weight: 400;
+      justify-content: center;
+      align-items: center;
+      padding: 5px 75px;
+      margin-top: 50px !important;
+      margin-left: 5px;  
+   }
+   
+   .privacy{             /*--privacy policy styling---*/
+      margin-top: 10px;
+   }
+   
+   .cheatcontent{
+      max-width: 400px !important;    /* Content max width*/
+      margin-left: 125px; 
+      margin-top: 45px;
+         /* Content in center by giving marigin*/
+   }
+   
+   .boxflex{
+      position: relative;
+      width:360px;
+      display:inline;
+      margin: 0;
+      
+   }
+   
+   .boxes{           /*---boxs flex styling-*/
+      display: flex;
+      width: 300px;
+      margin:5px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+   }
+   .box3{
+      display: none;
+   }
+   .cheatcontent .box1{           /*---box styling-*/
+      width:100px;
+      background-color: #1AB700;
+      position:relative;
+      display: block;
+      margin: 10px;
+      padding: 5px;
+      border-radius: 5px;
+      font-size:6px;
+      color: black;
+   }
+   
+   .cheatcontent .box2{
+      width:100px !important;
+      background-color: #7c7c7c;
+      position:relative;
+      margin-top: 10px;
+      padding: 5px;
+      border-radius: 5px;
+      font-size: 6px;
+      color: black;
+   }
+   
+   .cheatcontent .box3{
+      width:80px;
+      background-color: #7c7c7c;
+      position:relative;
+      margin-top: 10px;
+      padding: 5px;
+      border-radius: 5px;
+      font-size: 6px;
+      color: black;
+      display: none;
+   }
+   .cheatcontent .boxflex .boxes .box1 li{
+      font-size: 7px;
+   }
+   .cheatcontent .boxflex .boxes .box2 li{
+      font-size: 7px;
+   }
+   .privacy{             /*--privacy policy styling---*/
+      margin-top: 10px;
+   }
+   }
+
+
 
 
 
